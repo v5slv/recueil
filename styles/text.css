@@ -110,6 +110,10 @@ footer {
   position: relative;
 }
 
+.son {
+  position: fixed;
+}
+
 header.sur-hero .fil a,
 header.sur-hero .fil span,
 header.sur-hero .fil p,

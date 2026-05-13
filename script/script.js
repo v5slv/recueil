@@ -24,13 +24,13 @@ fetch("traductions.json")
       });
 
       // Mettre à jour la classe actif sur la bonne langue
-      document.querySelectorAll(".langues a").forEach((a) => {
-        a.classList.remove("actif");
+      document.querySelectorAll(".langues button").forEach((btn) => {
+        btn.classList.remove("actif");
         if (
-          a.textContent.trim() === langueSauvegardee.toUpperCase() ||
-          (langueSauvegardee === "kr" && a.textContent.trim() === "한국어")
+          btn.textContent.trim() === langueSauvegardee.toUpperCase() ||
+          (langueSauvegardee === "kr" && btn.textContent.trim() === "한국어")
         ) {
-          a.classList.add("actif");
+          btn.classList.add("actif");
         }
       });
 

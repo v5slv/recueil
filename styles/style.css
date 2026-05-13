@@ -54,6 +54,15 @@ body {
   position: relative;
 }
 
+header span,
+.top-link {
+  font-size: 0.9rem;
+}
+
+.actif {
+  font-weight: 600;
+}
+
 .link,
 .top-link:not(.actif) {
   cursor: pointer;

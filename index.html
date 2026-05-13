@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title data-traduction="title">Recueil</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button
+          href="#"
+          class="actif top-link langue"
+          onclick="changerLangue('fr', this)"
+        >
+          FR
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('en', this)"
+        >
+          EN
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('kr', this)"
+        >
+          한국어
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1 data-traduction="h1">Recueil</h1>
+      <a href="player-intro.html" data-traduction="btn-experience" class="btn"
+        >Vivre l'expérience interactive</a
+      >
+      <a href="player-full.html" data-traduction="link-full" class="link"
+        >Regarder directement le documentaire</a
+      >
+    </main>
+
+    <footer>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
+      <span>—</span>
+      <a
+        href="mentions-legales.html"
+        data-traduction="legal-notices"
+        class="link"
+        >Mentions légales</a
+      >
+      <button class="son" id="btnSon">
+        <!-- Icône son actif (ondes) -->
+        <svg
+          class="icon-son-on"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+        <!-- Icône son muet (avec X) -->
+        <svg
+          class="icon-son-off"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

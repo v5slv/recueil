@@ -1,0 +1,32 @@
+body {
+  overflow: hidden;
+  background-color: #f5fed7;
+  background-image: url("../img/home-bg.jpg");
+  background-size: 100% auto;
+  background-position: center calc(100% + 4rem);
+  background-repeat: no-repeat;
+  color: #354523;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Instrument Sans", sans-serif;
+  height: 100vh;
+  width: 100vw;
+  gap: 2rem;
+}
+
+/* ── MAIN ── */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-size: 9rem;
+}

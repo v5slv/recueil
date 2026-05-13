@@ -1,0 +1,181 @@
+{
+  "index": {
+    "fr": {
+      "title": "Recueil",
+      "h1": "Recueil",
+      "btn-experience": "Vivre l'expérience interactive",
+      "link-full": "Regarder directement le documentaire",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
+    },
+    "en": {
+      "title": "Harvest",
+      "h1": "Harvest",
+      "btn-experience": "Start the interactive experience",
+      "link-full": "Watch the full documentary",
+      "about": "About",
+      "legal-notices": "Legal notices"
+    },
+    "kr": {
+      "title": "그물코",
+      "h1": "그물코",
+      "btn-experience": "인터랙티브 체험하기",
+      "link-full": " 전체 다큐멘터리 보기",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
+  },
+  "map": {
+    "fr": {
+      "title": "Recueil - Carte",
+      "link-home": "Accueil",
+      "map": "Carte",
+      "alt-residents": "En savoir plus sur les résidents du village",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
+    },
+    "en": {
+      "title": "Harvest - Map",
+      "link-home": "Home",
+      "map": "Map",
+      "alt-residents": "Learn more about the village residents",
+      "about": "About",
+      "legal-notices": "Legal notices"
+    },
+    "kr": {
+      "title": "그물코 - 지도",
+      "link-home": "홈",
+      "map": "지도",
+      "alt-residents": "마을 주민들에 대해 더 알아보기",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
+  },
+  "player-intro": {
+    "fr": {
+      "title": "Recueil - Vidéo d'introduction",
+      "back": "← Retour à l'accueil",
+      "skip": "Passer la vidéo →"
+    },
+    "en": {
+      "title": "Harvest - Introduction Video",
+      "back": "← Back to Home",
+      "skip": "Skip the video →"
+    },
+    "kr": {
+      "title": "그물코 - 소개 영상",
+      "back": "← 홈으로 돌아가기",
+      "skip": "영상 건너뛰기 →"
+    }
+  },
+  "after-intro": {
+    "fr": {
+      "title": "Recueil — Introduction",
+      "phrase1": "Sannae est une commune rurale située dans le parc national du Jirisan, en Corée du Sud.",
+      "phrase2": "Ici prend racine l’association Indra’s Net du temple bouddhiste Silsang-sa.",
+      "phrase3": " Partez à la rencontre de ses habitants en parcourant les lieux.",
+      "explore-btn": "Explorer →"
+    },
+    "en": {
+      "title": "Harvest — Introduction",
+      "phrase1": "Sannae is a rural commune located in Jirisan National Park, in South Korea.",
+      "phrase2": "Here, the Indra's Net association of the Buddhist temple Silsang-sa took root.",
+      "phrase3": "Go and meet its inhabitants by exploring the area.",
+      "explore-btn": "Explore →"
+    },
+    "kr": {
+      "title": "그물코 — 소개",
+      "phrase1": "산내는 대한민국 지리산 국립공원에 위치한 농촌 마을입니다.",
+      "phrase2": "이곳에는 실상사 불교 사찰의 인드라망 공동체가 자리하고 있습니다.",
+      "phrase3": "마을 곳곳을 거닐며 주민들을 만나보세요.",
+      "explore-btn": "탐험하기 →"
+    }
+  },
+  "player-full": {
+    "fr": {
+      "title": "Recueil — Documentaire entier",
+      "back": "← Retour à l'accueil"
+    },
+    "en": {
+      "title": "Harvest — Full Documentary",
+      "back": "← Back to Home"
+    },
+    "kr": {
+      "title": "그물코 — 전체 다큐멘터리",
+      "back": "← 홈으로 돌아가기"
+    }
+  },
+  "player-residents": {
+    "fr": {
+      "title": "Recueil - Résidents",
+      "back-map": "← Retour à la carte",
+      "skip": "Passer la vidéo →"
+    },
+    "en": {
+      "title": "Harvest - Residents",
+      "back-map": "← Back to Map",
+      "skip": "Skip the video →"
+    },
+    "kr": {
+      "title": "그물코 - 주민들",
+      "back-map": "← 지도로 돌아가기",
+      "skip": "영상 건너뛰기 →"
+    }
+  },
+  "text-residents": {
+    "fr": {
+      "title": "Recueil - Résidents : détails",
+      "link-home": "Accueil",
+      "link-map": "Carte",
+      "map-details": "Les résidents du village",
+      "h1": "Les résidents du village",
+      "btn-experience": "Voir la capsule documentaire",
+      "details-title-1": "Un premier contact...",
+      "paragraph-1": "Dans le village de Sannae, les résidents sont curieux, enclins au dialogue envers nous.",
+      "paragraph-2": "Des questions sur notre venue fusent, des sourires et quelques mots en anglais sont parfois échangés. Plusieurs habitants iront même jusqu’à nous raccompagner en voiture dans nos logements respectifs alors même que nous ne nous sommes vus qu’une seule fois.",
+      "paragraph-3": "Nos hôtes, ouvertes au dialogue à la fois en anglais et en coréen, sont partantes pour des interviews improvisées.",
+      "details-title-2": "...devenu régulier",
+      "paragraph-4": "Certains habitants deviendront même des rencontres quotidiennes.",
+      "paragraph-5": "Nous pouvons les apercevoir au détour d’une allée, à un endroit donné, à une heure précise. D’autres fois, c’est en voiture qu’ils nous reconnaissent comme le pasteur que nous avions seulement eu au téléphone qui nous a reconnu uniquement avec le matériel audiovisuel que nous portions.",
+      "paragraph-6": "Il arrive aussi que lors du tournage, les résidents du village parlent d’autres habitants qui seront, à leur tour, interviewés.",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
+    },
+    "en": {
+      "title": "Harvest - Residents : details",
+      "link-home": "Home",
+      "link-map": "Map",
+      "map-details": "The village residents",
+      "h1": "The village residents",
+      "btn-experience": "Watch the documentary capsule",
+      "details-title-1": "A first contact...",
+      "paragraph-1": "In the village of Sannae, the residents are curious and eager to talk with us.",
+      "paragraph-2": "Questions about our visit arise, smiles and a few words in English are sometimes shared. Some locals even go as far as driving us back to our respective accommodations, even though we have only met once.",
+      "paragraph-3": "Our hosts, open to dialogue in both English and Korean, are ready to participate in impromptu interviews.",
+      "details-title-2": "...becoming a regular occurrence",
+      "paragraph-4": "Some of the residents will even become part of our daily routine.",
+      "paragraph-5": "We can spot them around a corner, at a given place, at a specific time. Other times,  they recognize us from their cars like the pastor we had only spoken to over the phone, who identified us solely by the audiovisual equipment we were carrying",
+      "paragraph-6": "It also happens that during filming, the village residents mention other inhabitants who will become our next interviewees.",
+      "about": "About",
+      "legal-notices": "Legal notices"
+    },
+    "kr": {
+      "title": "그물코 - 주민들 : 세부 정보",
+      "link-home": "홈",
+      "link-map": "지도",
+      "map-details": "마을 주민들",
+      "h1": "마을 주민들",
+      "btn-experience" : "다큐멘터리 캡슐 보기",
+      "details-title-1": "첫 만남...",
+      "paragraph-1": "산내 마을에서는 주민들이 호기심이 많고 우리와 대화하기를 좋아했븐디.",
+      "paragraph-2": "그들은 우리의 방문에 대해 많은 궁금증을 가지고 있었고, 때로는 미소와 몇 마디 영어를 섞으며 우리와 소통하려 했습니다. 일부 주민들은 우리와 한 번밖에 만나지 않았음에도 불구하고 우리를 각자의 집까지 차로 태워다 주기도 하였습니다.",
+      "paragraph-3": "영어와 한국어 전부 사용하며 소통을 할려는 주민들은 즉석 인터뷰에 참여할 준비가 되어 있었습니다.",
+      "details-title-2": "...일상이 되다",
+      "paragraph-4": "몇몇 주민들은 우리의 일상적인 만남이 되었습니다.",
+      "paragraph-5": "우리는 그들을 어느 길목이나 특정 장소에서 특정 시간에 만날 수 있었습니다. 또는, 우리가 전화를 통해서만 만났던 목사님처럼 주민들은 차를 타고 가면서 저희를 알아보기도 했습니다. 그는 우리가 들고 있던 촬영 장비만으로 우리를 알아보았습니다.",
+      "paragraph-6": "촬영 중에 마을 주민들이 다른 주민들을 언급하는 경우도 있었습니다. 언급된 주민들은 우리의 다음 인터뷰 대상이 되었습니다.",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
+  }
+}

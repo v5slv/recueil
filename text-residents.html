@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <script src="script/text.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/top-fil.css" />
+    <link rel="stylesheet" href="styles/text.css" />
+    <title data-traduction="title">Recueil - Résidents : détails</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body class="documentaire-body">
+    <header>
+      <nav class="fil">
+        <a href="index.html" data-traduction="link-home">Accueil</a>
+        <span>></span>
+        <a href="map.html" data-traduction="link-map">Carte</a>
+        <span>></span>
+        <span class="actif" data-traduction="map-details"
+          >Les résidents du village</span
+        >
+      </nav>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button
+          href="#"
+          class="actif top-link langue"
+          onclick="changerLangue('fr', this)"
+        >
+          FR
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('en', this)"
+        >
+          EN
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('kr', this)"
+        >
+          한국어
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1 data-traduction="h1">Les résidents du village</h1>
+        <a
+          href="player-residents.html"
+          data-traduction="btn-experience"
+          class="btn btn-experience"
+          >Voir la capsule documentaire</a
+        >
+        <img
+          src="img/residents-bg.jpg"
+          alt=""
+          class="hero-bg"
+          id="heroBgStatic"
+        />
+        <!-- <img src="img/residents-bg.gif" alt="" class="hero-bg" id="heroBgGif" /> -->
+      </div>
+      <div class="contents">
+        <section class="content content-oneimg">
+          <div class="context-text">
+            <h2 data-traduction="details-title-1">Un premier contact...</h2>
+            <div class="context-paragraph">
+              <p data-traduction="paragraph-1">
+                Dans le village de Sannae, les résidents sont curieux, enclins
+                au dialogue envers nous.
+              </p>
+              <p data-traduction="paragraph-2">
+                Des questions sur notre venue fusent, des sourires et quelques
+                mots en anglais sont parfois échangés. Plusieurs habitants iront
+                même jusqu’à nous raccompagner en voiture dans nos logements
+                respectifs alors même que nous ne nous sommes vus qu’une seule
+                fois.
+              </p>
+              <p data-traduction="paragraph-3">
+                Nos hôtes, ouvertes au dialogue à la fois en anglais et en
+                coréen, sont partantes pour des interviews improvisées.
+              </p>
+            </div>
+          </div>
+          <div class="context-img">
+            <img src="img/hote1.jpg" alt="" />
+          </div>
+        </section>
+        <section class="content content-oneimg content-oneimg-left">
+          <div class="context-text">
+            <h2 data-traduction="details-title-2">...devenu régulier</h2>
+            <div class="context-paragraph">
+              <p data-traduction="paragraph-4">
+                Certains habitants deviendront même des rencontres quotidiennes.
+              </p>
+              <p data-traduction="paragraph-5">
+                Nous pouvons les apercevoir au détour d’une allée, à un endroit
+                donné, à une heure précise. D’autres fois, c’est en voiture
+                qu’ils nous reconnaissent comme le pasteur que nous avions
+                seulement eu au téléphone qui nous a reconnu uniquement avec le
+                matériel audiovisuel que nous portions.
+              </p>
+              <p data-traduction="paragraph-6">
+                Il arrive aussi que lors du tournage, les résidents du village
+                parlent d’autres habitants qui seront, à leur tour, interviewés.
+              </p>
+            </div>
+          </div>
+          <div class="context-img">
+            <img src="img/mamie.jpg" alt="" />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
+      <span>—</span>
+      <a
+        href="mentions-legales.html"
+        data-traduction="legal-notices"
+        class="link"
+        >Mentions légales</a
+      >
+
+      <button class="son" id="btnSon" aria-label="Couper le son">
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

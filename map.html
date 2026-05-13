@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/top-fil.css" />
+    <link rel="stylesheet" href="styles/map.css" />
+    <title data-traduction="title">Recueil - Carte</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="fil">
+        <a href="index.html" data-traduction="link-home" class="link"
+          >Accueil</a
+        >
+        <span>></span>
+        <span class="actif" data-traduction="map">Carte</span>
+      </nav>
+      <nav class="langues">
+        <a href="#" class="actif" onclick="changerLangue('fr', this)">FR</a>
+        <span>/</span>
+        <a href="#" onclick="changerLangue('en', this)">EN</a>
+        <span>/</span>
+        <a href="#" onclick="changerLangue('kr', this)">한국어</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="map-container">
+        <img src="img/map-fr.jpg" alt="" class="map-img" />
+        <a href="player-residents.html" class="map-link map-link-residents">
+          <img
+            src="img/map-residents.png"
+            data-traduction="alt-residents"
+            alt="En savoir plus sur les résidents du village"
+            class="map-link-img map-link-img-residents"
+          />
+        </a>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a
+          href="a-propos.html"
+          data-traduction="
+        about"
+          class="link"
+          >À propos</a
+        >
+        <span>—</span>
+        <a
+          href="mentions-legales.html"
+          data-traduction="legal-notices"
+          class="link"
+          >Mentions légales</a
+        >
+      </div>
+      <button class="son" id="btnSon">
+        <!-- Icône son actif (ondes) -->
+        <svg
+          class="icon-son-on"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+        <!-- Icône son muet (avec X) -->
+        <svg
+          class="icon-son-off"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

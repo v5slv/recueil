@@ -39,7 +39,8 @@ h1 {
   text-align: center;
 }
 
-h1.coreen {
+h1.coreen,
+h2.coreen {
   font-family: "Gowun Batang", serif;
   line-height: 1.2;
 }

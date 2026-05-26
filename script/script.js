@@ -35,17 +35,11 @@ fetch("traductions.json")
       });
 
       // ← AJOUT 1 : appliquer la police coréenne au chargement si langue sauvegardée = kr
-      const h1 = document.querySelector("h1");
-      if (h1) {
-        if (langueSauvegardee === "kr") {
-          h1.classList.add("coreen");
-        } else {
-          h1.classList.remove("coreen");
-        }
-      }
-    }
+      document.querySelectorAll("h1, h2").forEach((el) => {
+  el.classList.toggle("coreen", langueSauvegardee === "kr");
+});
+  } 
   });
-
 function changerLangue(langue, el) {
   const t = traductions[langue];
   if (!t) return;
@@ -58,14 +52,9 @@ function changerLangue(langue, el) {
   });
 
   // ← AJOUT 2 : changer la police du h1 quand on clique sur une langue
-  const h1 = document.querySelector("h1");
-  if (h1) {
-    if (langue === "kr") {
-      h1.classList.add("coreen");
-    } else {
-      h1.classList.remove("coreen");
-    }
-  }
+  document.querySelectorAll("h1, h2").forEach((el) => {
+  el.classList.toggle("coreen", langue === "kr");
+});
 
   document.querySelectorAll(".phrases p").forEach((p) => {
     if (langue === "kr") p.classList.add("coreen");

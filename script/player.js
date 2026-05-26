@@ -87,6 +87,26 @@ if (btnPasser) {
   }, 2000);
 }
 
+// ── SOUS-TITRES : fonction utilitaire ──
+function activerSousTitres(player, langue) {
+  const langueVimeo = {
+    fr: "fr",
+    kr: "ko",
+    en: null // ajouter "en" quand la piste sera uploadée sur Vimeo
+  };
+
+  const code = langueVimeo[langue];
+
+  if (code) {
+    player.enableTextTrack(code).catch(() => {
+      player.disableTextTrack();
+    });
+  } else {
+    player.disableTextTrack();
+  }
+}
+
+// ── VIMEO PLAYER ──
 const vimeoPlayer = document.getElementById("vimeoPlayer");
 
 if (vimeoPlayer) {
@@ -96,6 +116,10 @@ if (vimeoPlayer) {
 
   script.onload = () => {
     const player = new Vimeo.Player(vimeoPlayer);
+
+    // Activer les sous-titres selon la langue sauvegardée
+    const langue = localStorage.getItem("langue") || "fr";
+    activerSousTitres(player, langue);
 
     // Quand la vidéo se termine → rediriger vers map.html après 2 secondes
     player.on("ended", () => {

@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/top-fil.css" />
+    <link rel="stylesheet" href="styles/a-propos.css" />
+    <title>Recueil — À propos</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <nav class="fil">
+        <a href="index.html" class="top-link">Accueil</a>
+        <span>></span>
+        <span class="actif top-link">À propos</span>
+      </nav>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button class="actif top-link langue" onclick="changerLangue('fr', this)">FR</button>
+        <span>/</span>
+        <button class="top-link langue" onclick="changerLangue('en', this)">EN</button>
+        <span>/</span>
+        <button class="top-link langue" onclick="changerLangue('kr', this)">한국어</button>
+      </nav>
+    </header>
+
+    <main class="apropos-main">
+
+      <!-- TITRE -->
+      <section class="apropos-hero">
+        <p class="apropos-label">À propos</p>
+        <h1 class="apropos-title">Recueil</h1>
+        <p class="apropos-subtitle">
+          Ce site web sert de support de visionnage au documentaire <em>Recueil</em>, réalisé en collaboration entre les étudiants français de l'université Gustave Eiffel et les étudiants coréens de l'université Dong-Eui. L'utilisateur peut visionner le documentaire dans son entièreté ou bien découvrir le documentaire à travers une expérience interactive.
+        </p>
+      </section>
+
+      <div class="apropos-divider"></div>
+
+      <!-- LE PROJET -->
+      <section class="apropos-section">
+        <div class="apropos-section-label">Le projet</div>
+        <div class="apropos-section-body">
+          <p>
+            Ce projet est issu d'une volonté académique de l'Université Gustave Eiffel de faire collaborer les étudiants coréens et étudiants français dans le cadre d'un documentaire filmé en Corée du Sud ayant comme sujet <em>«&nbsp;Les traces du passé dans le présent&nbsp;»</em>.
+          </p>
+          <p>
+            Notre documentaire se focalise sur le thème de la ruralité en Corée du Sud. À travers le village, ses activités (agricoles, associatives) et le temple de Silsangsa&nbsp;<span class="hangul">(실상사)</span> situé à Namwon, dans la province Nord de Jeolla, en Corée du Sud, nous souhaitons montrer un aspect de la campagne coréenne qui est à ce jour peu abordé.
+          </p>
+          <p>
+            Notre documentaire se construit autour de plans montrant le village, d'interviews de ses habitants, ainsi que des plans de la vie locale. Les interviews permettent au spectateur de comprendre plus en profondeur l'exode rural subi par le village et le rayonnement de Silsangsa sur celui-ci.
+          </p>
+          <p>
+            Enfin, notre documentaire porte en son sein une partie plus spirituelle, étant donné que Silsangsa est un temple abritant le mouvement de l'Indra's Net. Ce mouvement religieux auquel adhèrent de nombreux habitants interviewés est né dans le temple et participe à la trame globale de notre documentaire.
+          </p>
+        </div>
+      </section>
+
+      <div class="apropos-divider"></div>
+
+      <!-- ÉQUIPE -->
+      <section class="apropos-section apropos-equipe">
+        <div class="apropos-section-label">Équipe</div>
+        <div class="apropos-equipe-cols">
+
+          <!-- Côté français -->
+          <div class="apropos-equipe-bloc">
+            <h2 class="equipe-titre">Côté français</h2>
+            <ul class="equipe-liste">
+              <li>
+                <span class="role">Direction de projet</span>
+                <span class="noms">Evan MELET / Clara MANY</span>
+              </li>
+              <li>
+                <span class="role">Recherche / Documentation</span>
+                <span class="noms">Pauline MAS / Evan MELET / Valérie LAPEYRE</span>
+              </li>
+              <li>
+                <span class="role">Image</span>
+                <span class="noms">Alexandru VASILE / Élise CELADON</span>
+              </li>
+              <li>
+                <span class="role">Son</span>
+                <span class="noms">Pauline MAS / Élise CELADON</span>
+              </li>
+              <li>
+                <span class="role">Montage</span>
+                <span class="noms">Elise CELADON</span>
+              </li>
+              <li>
+                <span class="role">Mixage audio</span>
+                <span class="noms">Pauline MAS</span>
+              </li>
+              <li>
+                <span class="role">Graphisme</span>
+                <span class="noms">Valérie LAPEYRE / Alexandru VASILE</span>
+              </li>
+              <li>
+                <span class="role">Développement Web</span>
+                <span class="noms">Ayoub TIGHIDET / Valérie LAPEYRE</span>
+              </li>
+              <li>
+                <span class="role">Multilinguisme</span>
+                <span class="noms">Clara MANY / Pauline MAS</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Côté coréen -->
+          <div class="apropos-equipe-bloc">
+            <h2 class="equipe-titre">Côté coréen</h2>
+            <ul class="equipe-liste">
+              <li>
+                <span class="role">Cheffe de projet / transcription / recherches</span>
+                <span class="noms hangul">김영</span>
+              </li>
+              <li>
+                <span class="role">Transcription / recherches</span>
+                <span class="noms hangul">가현</span>
+              </li>
+              <li>
+                <span class="role">Traduction</span>
+                <span class="noms hangul">김헌진</span>
+              </li>
+              <li>
+                <span class="role">Assistante</span>
+                <span class="noms hangul">미정</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <a href="a-propos.html" class="link actif">À propos</a>
+      <span>—</span>
+      <a href="mentions-legales.html" class="link">Mentions légales</a>
+      <button class="son" id="btnSon" aria-label="Couper le son">
+        <svg class="icon-son-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#354523" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+        </svg>
+        <svg class="icon-son-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#354523" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

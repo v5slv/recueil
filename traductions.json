@@ -176,6 +176,11 @@
       "paragraph-6": "촬영 중에 마을 주민들이 다른 주민들을 언급하는 경우도 있었습니다. 언급된 주민들은 우리의 다음 인터뷰 대상이 되었습니다.",
       "about": "소개",
       "legal-notices": "법적 고지"
-    }
+    },
+    "a-propos": {
+  "fr": { "title": "Recueil — À propos" },
+  "en": { "title": "Recueil — About" },
+  "kr": { "title": "Recueil — 소개" }
+}
   }
 }

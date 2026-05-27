@@ -71,36 +71,24 @@ function changerLangue(langue, el) {
 }
 
 // ── SON ──
+// ── SON ──
 let sonActif = false;
 const btnSon = document.getElementById("btnSon");
-// if (btnSon) {
-//   btnSon.addEventListener("click", () => {
-//     sonActif = !sonActif;
-//     if (sonActif) {
-//       const textes = [];
-//       document.querySelectorAll("[data-traduction]").forEach((elem) => {
-//         textes.push(elem.textContent.trim());
-//       });
-//       const utterance = new SpeechSynthesisUtterance(textes.join(". "));
-//       const langueActive = document
-//         .querySelector(".langues a.actif")
-//         .textContent.trim();
-//       if (langueActive === "EN") utterance.lang = "en-US";
-//       else if (langueActive === "한국어") utterance.lang = "ko-KR";
-//       else utterance.lang = "fr-FR";
-//       window.speechSynthesis.speak(utterance);
-//     } else {
-//       window.speechSynthesis.cancel();
-//     }
-//   });
-// }
 
-btnSon.addEventListener("click", () => {
-  sonActif = !sonActif;
-  btnSon.classList.toggle("muted"); // ← bascule l'icône
-  if (sonActif) {
-    // ... lecture
-  } else {
-    window.speechSynthesis.cancel();
-  }
-});
+const bird = new Audio("sounds/bird1.mp3");
+bird.loop = true;
+bird.volume = 0.6;
+
+if (btnSon) {
+  btnSon.addEventListener("click", () => {
+    sonActif = !sonActif;
+    btnSon.classList.toggle("muted");
+
+    if (!sonActif) {
+      bird.play();
+    } else {
+      bird.pause();
+      bird.currentTime = 0;
+    }
+  });
+}

@@ -194,7 +194,7 @@ footer a {
   appearance: none;
   -webkit-appearance: none;
   box-shadow: none;
-  position: absolute;
+  position: fixed;
   bottom: 1rem;
   right: 1.5rem;
 }

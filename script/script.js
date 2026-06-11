@@ -75,7 +75,7 @@ function changerLangue(langue, el) {
 let sonActif = false;
 const btnSon = document.getElementById("btnSon");
 
-const bird = new Audio("sounds/bird1.mp3");
+const bird = new Audio("sounds/bird1.wav");
 bird.loop = true;
 bird.volume = 0.6;
 

@@ -1,0 +1,291 @@
+/* ───────────────────────────────────────
+   ARTICLE "LA RURALITÉ CORÉENNE"
+   styles/article.css — calé sur l'export Figma Dev Mode
+   ─────────────────────────────────────── */
+
+/* ── Hero : double bouton ── */
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.75rem;
+}
+
+.hero h1 {
+  font-size: 5.5rem;
+  line-height: 1.125;
+}
+
+.hero .btn {
+  font-weight: 500;
+  padding: 1rem 2.5rem;
+}
+
+.btn-secondary {
+  background-color: #f5f2d6;
+  color: #354523;
+  border-color: #f5f2d6 !important;
+}
+
+.btn-secondary:hover {
+  background-color: #e7e0b8;
+}
+
+/* ── Structure des sections ── */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.num-heading {
+  font-family: "Ovo", serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1;
+  color: #354523;
+  max-width: 800px;
+  margin-bottom: 0.25rem;
+}
+
+/* Sous-titres : Instrument Sans gras, PAS Ovo serif */
+.content-section h3 {
+  font-family: "Instrument Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: #354523;
+  margin-top: 0;
+}
+
+/* Texte courant : noir partout dans l'article, peu importe l'imbrication */
+.content-section p,
+.content-section ul {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+/* La phrase d'intro en gras reste verte */
+.content-section .lead {
+  color: #354523;
+}
+
+/* ── Lignes texte + image ── */
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 4rem;
+}
+
+.content-oneimg {
+  flex-direction: row;
+}
+
+.content-oneimg-left {
+  flex-direction: row-reverse;
+}
+
+/* Rangée d'ouverture de section : titre + texte alignés en haut avec l'image */
+.content-heading-row {
+  align-items: flex-start;
+}
+
+.content-img-only {
+  justify-content: center;
+}
+
+.context-text {
+  flex: 1 1 55%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.context-text.wide {
+  flex: 1 1 60%;
+}
+
+.context-img {
+  flex: 1 1 40%;
+  min-width: 0;
+}
+
+.context-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.context-img.chart-box {
+  flex: 0 1 340px;
+  max-width: 360px;
+}
+
+.context-img.small {
+  flex: 0 1 280px;
+  max-width: 300px;
+}
+
+.context-img.full {
+  flex: 1 1 100%;
+}
+
+.context-img.full img {
+  aspect-ratio: 1178 / 353;
+  object-fit: cover;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* ── Légendes : alignées à droite, ligne de séparation au-dessus ── */
+.img-caption {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #000;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid rgba(53, 69, 35, 0.1);
+}
+
+/* Quand la légende est un sibling après une .section (chart-box / full) */
+.content + .img-caption {
+  margin-top: 0.5rem;
+}
+
+/* ── Listes à tiret ── */
+.dash-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.dash-list li {
+  position: relative;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000;
+}
+
+.dash-list li::before {
+  content: "•";
+  position: absolute;
+  left: -1.15rem;
+  color: #828a6a;
+}
+
+/* ── Tableau récapitulatif ── */
+.recap-table {
+  margin-top: 0;
+}
+
+.recap-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.recap-table thead th {
+  text-align: left;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #828a6a;
+  font-weight: 600;
+  padding: 0 1rem 0.7rem 0;
+  border-bottom: 1px solid #c8d4a0;
+}
+
+.recap-table td {
+  padding: 0.9rem 1rem 0.9rem 0;
+  border-top: 1px solid #e4edbe;
+  vertical-align: middle;
+  color: #000;
+}
+
+.recap-table tbody tr:first-child td {
+  border-top: none;
+}
+
+.row-group-label {
+  font-weight: 600;
+  width: 20%;
+  color: #354523;
+}
+
+.recap-table-caption {
+  text-align: right;
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #000;
+  margin-top: 0.75rem;
+  padding-top: 0.5rem;
+  border-top: 2px solid rgba(53, 69, 35, 0.1);
+}
+
+/* ── Bibliographie ── */
+.biblio-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.biblio-block p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+.biblio-block a {
+  color: #354523;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  word-break: break-all;
+}
+
+/* ── Responsive ── */
+@media (max-width: 860px) {
+  .contents {
+    margin: 0 6%;
+  }
+
+  .content {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 1.5rem;
+  }
+
+  .context-text,
+  .context-text.wide,
+  .context-img,
+  .context-img.chart-box,
+  .context-img.small {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .num-heading {
+    font-size: 2.1rem;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    max-width: 90%;
+  }
+
+  .recap-table table {
+    font-size: 0.8rem;
+  }
+}

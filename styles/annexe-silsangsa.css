@@ -191,6 +191,17 @@ a.btn.btn-secondary:hover {
   object-fit: contain;
 }
 
+/* Le graphique des religions (chap2_graph1) existe en FR au format vertical
+   (1088x1422, ratio ≈0,765) mais les versions EN/KR sont exportées en carré
+   (2048x2048, ratio 1). Sans contrainte, la boîte image change de hauteur
+   selon la langue chargée et décale le texte voisin au changement de
+   langue. On fige donc l'aspect-ratio sur le format FR de référence ;
+   object-fit: contain garantit que le dessin reste entièrement visible
+   (jamais rogné) quel que soit le fichier réellement chargé. */
+img[data-img-base="chap2_graph1"] {
+  aspect-ratio: 1088 / 1422;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 700;

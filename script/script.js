@@ -16,6 +16,7 @@ const EXTENSIONS_IMG = {
   chap1_graph2: { fr: "png", en: "jpg", kr: "jpg" },
   chap1_graph3: { fr: "jpg", en: "jpg", kr: "jpg" },
   chap1_graph5: { fr: "jpg", en: "jpg", kr: "jpg" },
+  chap2_graph1: { fr: "jpg", en: "jpg", kr: "jpg" },
 };
 
 function appliquerImagesTraduites(langue) {

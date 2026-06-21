@@ -15,38 +15,7 @@ main {
   padding-top: var(--padding-main);
 }
 
-.map-container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-}
-
-.map-img,
-.map-link,
-.map-link-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.map-link {
-  position: absolute;
-  z-index: 1;
-}
-
-.map-link-residents {
-  top: 31%;
-  left: 61%;
-  transform: translate(-50%, -50%);
-  width: 16%;
-  filter: grayscale(80%);
-  transition: filter 0.2s ease-out;
-}
-
-.map-link-residents:hover {
-  filter: grayscale(0);
-  transition: filter 0.2s ease-out;
-}
+/* FOOTER */
 
 .footer-links,
 .son {
@@ -54,6 +23,7 @@ main {
   background-color: #f6f2d7;
   border-radius: 100px;
   display: flex;
+  z-index: 10;
   /* border: 1px solid #d5d5d5; */
 }
 
@@ -65,4 +35,76 @@ main {
 
 .son {
   padding: 0.5rem;
+}
+
+/* MAP */
+
+.map-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.map-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.map-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 28%;
+  z-index: 2;
+}
+
+/* Par défaut : N&B sombre */
+.map-img {
+  filter: grayscale(1) brightness(0.2);
+  transition: filter 0.3s ease;
+}
+
+/* Icône chap2 */
+.map-icone_chap2.gray {
+  filter: grayscale(1);
+}
+
+.locked {
+  pointer-events: none;
+}
+
+/* Hover : N&B lumineux */
+.map-link:not(.visited):hover .map-img,
+.map-link:not(.visited):not(.locked):hover .map-img {
+  filter: grayscale(1) brightness(1);
+  transition: filter 0.2s ease-out;
+}
+
+/* Visité : couleur permanente */
+.visited .map-img {
+  filter: brightness(1);
+}
+
+.visited:hover .map-img {
+  filter: brightness(1.1);
+  transition: filter 0.2s ease-out;
+}
+
+/* Icône cachée si visité */
+.map-icone.gone {
+  display: none;
+}
+
+/* Icône chap2 en couleur si déverrouillé */
+.map-link_chap2:not(.locked) .map-icone_chap2 {
+  filter: none;
 }

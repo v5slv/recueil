@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="script/script.js" defer></script>
+    <script src="script/map.js" defer></script>
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/top-fil.css" />
     <link rel="stylesheet" href="styles/map.css" />
@@ -56,15 +57,91 @@
 
     <main>
       <div class="map-container">
-        <img src="img/map-fr.jpg" alt="" class="map-img" />
-        <a href="player-residents.html" class="map-link map-link-residents">
+        <img src="img/map_bg.jpg" alt="" class="map-bg" />
+        <img src="img/map_titre_fr_en.png" alt="Sannae" class="map-title" />
+        <svg
+          class="map-svg"
+          viewBox="0 0 3840 2160"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <!-- Zone Sud — chapitre 2, bloquée au départ -->
+          <a
+            href="/chapitre-2"
+            id="chap2"
+            class="map-link map-link_chap2 locked"
+          >
+            <image
+              href="img/map_chap2.png"
+              x="932"
+              y="913"
+              width="2305"
+              height="1247"
+              alt="Silsangsa"
+              pointer-events="none"
+              class="map-img map-img_chap2"
+            />
+            <path
+              d="M2296.62 1258.01H0.616211L14.6162 1191.51L57.6162 1139.01L133.116 1093.51L167.616 998.512L139.616 907.012L152.616 836.012H198.116L211.616 784.512L179.616 755.512L261.616 572.012L279.616 461.012L342.116 375.512L447.116 335.512L642.616 268.012V302.512L674.116 317.012L720.616 291.512L712.116 235.012L744.116 188.512L860.116 63.0117L1081.12 0.511719L1172.62 15.5117L1256.62 158.012L1343.62 325.512L1325.12 362.012L1373.12 414.512H1423.12L1514.62 569.512L1578.12 580.512L1596.12 599.012L1589.12 638.012L1663.62 682.012L1777.62 723.512L1906.12 818.512L1998.62 980.512L2180.12 1131.51L2296.62 1258.01Z"
+              fill="transparent"
+              transform="translate(928, 900)"
+            />
+          </a>
+          <image
+            href="img/map_icone_chap2.png"
+            x="1678"
+            y="1396"
+            width="250"
+            height="250"
+            pointer-events="none"
+            class="map-icone map-icone_chap2 gray"
+          />
+
+          <!-- Zone Nord — chapitre 1, toujours cliquable -->
+          <a
+            href="/player-residents.html"
+            id="chap1"
+            class="map-link map-link_chap1"
+          >
+            <image
+              href="img/map_chap1.png"
+              x="0"
+              y="0"
+              width="3840"
+              height="2160"
+              alt="Sannae"
+              pointer-events="none"
+              class="map-img map-img_chap1"
+            />
+            <path
+              d="M3224 2154L3107.5 2027.5L2926 1876.5L2833.5 1714.5L2705 1619.5L2591 1578L2516.5 1534L2523.5 1495L2505.5 1476.5L2442 1465.5L2350.5 1310.5H2300.5L2252.5 1258L2271 1221.5L2184 1054L2100 911.504L2008.5 896.504L1787.5 959.004L1671.5 1084.5L1639.5 1131L1648 1187.5L1601.5 1213L1570 1198.5V1164L1374.5 1231.5L1269.5 1271.5L1207 1357L1189 1468L1107 1651.5L1139 1680.5L1125.5 1732H1080L1067 1803L1095 1894.5L1060.5 1989.5L985 2035L942 2087.5L928 2154L0.5 2154.5V556.004H49L152 623.504H276L321.5 570.504L621 511.504L731.5 436.004L812.5 398.504L932.5 382.004L986.5 318.504L1045.5 223.504L1078.5 161.004L1425.5 19.5044L1510 0.504395L1619.5 9.50439L1778 97.0044L1844.5 80.5044L1899 43.5044H1964.5L2038.5 88.0044L2093 133.504L2231.5 27.0044L2300.5 2.50439L2391 9.50439L2495.5 61.5044L2597.5 116.004L2654 88.0044L2705 77.0044L2792.5 116.004L2861 180.004L3054 88.0044L3306 15.0044L3413.5 9.50439L3539.5 46.0044L3602 111.504L3680.5 88.0044L3766 111.504L3840.5 164.504V2154.5L3224 2154Z"
+              fill="transparent"
+            />
+          </a>
+          <image
+            href="img/map_icone_chap1.png"
+            x="1350"
+            y="593"
+            width="250"
+            height="250"
+            pointer-events="none"
+            class="map-icone map-icone_chap1"
+          />
+        </svg>
           <img
-            src="img/map-residents.png"
+            src="img/map_chap1.png"
             data-traduction="alt-residents"
-            alt="En savoir plus sur les résidents du village"
-            class="map-link-img map-link-img-residents"
+            alt="Voir le chapitre 1 sur Sannae"
+            class="map-link-img map-link-img_chap1"
           />
         </a>
+        <a href="player-residents.html" class="map-link map-link_chap2">
+          <img
+            src="img/map_chap2.png"
+            data-traduction="alt-residents"
+            alt="Voir le chapitre 2 sur Silsangsa"
+            class="map-link-img map-link-img_chap2"
+          />
+        </a> -->
       </div>
     </main>
 
@@ -124,17 +201,17 @@
       const bird = new Audio("sounds/bird1.wav");
       bird.loop = true;
       bird.volume = 0.6;
- 
+
       window.addEventListener("load", () => {
         bird.play().catch(() => {
           document.addEventListener("click", () => bird.play(), { once: true });
         });
       });
- 
+
       // Bouton son pour couper/reprendre
       const btnSon = document.getElementById("btnSon");
       let sonActif = true;
- 
+
       if (btnSon) {
         btnSon.addEventListener("click", () => {
           sonActif = !sonActif;

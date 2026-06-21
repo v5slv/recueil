@@ -27,7 +27,7 @@ document.getElementById("chap2").addEventListener("click", (e) => {
   }
 });
 
-// TITRE MAP + CLASSE ACTIF selon la langue
+// TITRE MAP selon la langue
 function updateTitreMap(langue) {
   const titre = document.querySelector(".map-title");
   if (!titre) return;
@@ -35,34 +35,20 @@ function updateTitreMap(langue) {
     langue === "kr" ? "img/map_titre_kr.png" : "img/map_titre_fr_en.png";
 }
 
-function updateActif(langue) {
-  document.querySelectorAll(".langues button").forEach((btn) => {
-    btn.classList.remove("actif");
-    const onclick = btn.getAttribute("onclick");
-    const match = onclick.match(/changerLangue\('(\w+)'/);
-    if (match && match[1] === langue) btn.classList.add("actif");
-    if (langue === "kr" && btn.textContent.trim() === "한국어")
-      btn.classList.add("actif");
-  });
-}
-
-// Au chargement
 const langueInitiale = localStorage.getItem("langue") || "fr";
 updateTitreMap(langueInitiale);
 
-// On attend que script.js ait fini son fetch avant de corriger l'actif
-window.addEventListener("load", () => {
-  updateActif(langueInitiale);
-});
-
-// Au clic sur les boutons de langue
 document.querySelectorAll(".langues button").forEach((btn) => {
   btn.addEventListener("click", () => {
     const onclick = btn.getAttribute("onclick");
     const match = onclick.match(/changerLangue\('(\w+)'/);
-    if (match) {
-      updateTitreMap(match[1]);
-      updateActif(match[1]);
-    }
+    if (match) updateTitreMap(match[1]);
+  });
+});
+
+// SON
+window.addEventListener("load", () => {
+  bird.play().catch(() => {
+    document.addEventListener("click", () => bird.play(), { once: true });
   });
 });

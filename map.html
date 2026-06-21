@@ -182,32 +182,5 @@
         </svg>
       </button>
     </footer>
-    <script>
-      const bird = new Audio("sounds/bird1.wav");
-      bird.loop = true;
-      bird.volume = 0.6;
-
-      window.addEventListener("load", () => {
-        bird.play().catch(() => {
-          document.addEventListener("click", () => bird.play(), { once: true });
-        });
-      });
-
-      // Bouton son pour couper/reprendre
-      const btnSon = document.getElementById("btnSon");
-      let sonActif = true;
-
-      if (btnSon) {
-        btnSon.addEventListener("click", () => {
-          sonActif = !sonActif;
-          btnSon.classList.toggle("muted");
-          if (sonActif) {
-            bird.play();
-          } else {
-            bird.pause();
-          }
-        });
-      }
-    </script>
   </body>
 </html>

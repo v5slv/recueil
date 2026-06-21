@@ -3,6 +3,14 @@
    styles/article.css — calé sur l'export Figma Dev Mode
    ─────────────────────────────────────── */
 
+/* Le fond global (style.css) est #f5fed7, mais les images exportées de Figma
+   (graphiques dessinés à la main) ont un fond cuit en #f5f2d6.
+   On aligne le fond de CETTE page sur la couleur exacte de Figma pour que
+   les images se fondent dans la page sans liseré visible. */
+body.documentaire-body {
+  background-color: #f5f2d6;
+}
+
 /* ── Hero : double bouton ── */
 .hero-buttons {
   display: flex;
@@ -22,13 +30,13 @@
   padding: 1rem 2.5rem;
 }
 
-.btn-secondary {
+a.btn.btn-secondary {
   background-color: #f5f2d6;
   color: #354523;
   border-color: #f5f2d6 !important;
 }
 
-.btn-secondary:hover {
+a.btn.btn-secondary:hover {
   background-color: #e7e0b8;
 }
 
@@ -139,6 +147,43 @@
   object-fit: cover;
 }
 
+/* L'image s'étire pour égaler la hauteur du bloc texte voisin.
+   En flex-colonne : l'image grandit (flex:1) et la légende garde sa
+   hauteur naturelle en bas, sans déborder du cadre. */
+.context-img.stretch {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.context-img.stretch img {
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Pour les illustrations à fond uni (graphiques dessinés, drapeau) :
+   on ne veut jamais rogner un label ou un élément du dessin, donc on
+   garde l'image entière visible (le fond de l'image se fond dans la
+   page, donc l'espace résiduel autour est invisible). */
+.context-img.stretch.contain {
+  /* Contrairement aux photos (cover), une illustration "contain" ne peut
+     pas être rognée pour combler l'écart de hauteur avec le texte. Plutôt
+     que de forcer un étirement (qui crée un vide résiduel variable selon
+     la longueur du texte / le zoom), on la laisse à sa taille naturelle,
+     calée en haut de la rangée. */
+  align-self: flex-start;
+}
+
+.context-img.stretch.contain img {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .lead {
   font-size: 1.25rem;
   font-weight: 700;
@@ -148,7 +193,7 @@
 .img-caption {
   display: flex;
   justify-content: flex-end;
-  text-align: right;
+  text-align: center;
   font-size: 0.875rem;
   font-style: italic;
   color: #000;
@@ -226,7 +271,7 @@
 }
 
 .recap-table-caption {
-  text-align: right;
+  text-align: center;
   font-size: 0.875rem;
   font-style: italic;
   color: #000;

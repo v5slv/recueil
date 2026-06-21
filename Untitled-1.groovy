@@ -1,144 +1,3 @@
-{
-  "index": {
-    "fr": {
-      "title": "Recueil",
-      "h1": "Recueil",
-      "btn-experience": "Vivre l'expérience interactive",
-      "link-full": "Regarder directement le documentaire",
-      "about": "À propos",
-      "legal-notices": "Mentions légales"
-    },
-    "en": {
-      "title": "Harvest",
-      "h1": "Harvest",
-      "btn-experience": "Start the interactive experience",
-      "link-full": "Watch the full documentary",
-      "about": "About",
-      "legal-notices": "Legal notices"
-    },
-    "kr": {
-      "title": "그물코",
-      "h1": "그물코",
-      "btn-experience": "인터랙티브 체험하기",
-      "link-full": " 전체 다큐멘터리 보기",
-      "about": "소개",
-      "legal-notices": "법적 고지"
-    }
-  },
-  "map": {
-    "fr": {
-      "title": "Recueil - Carte",
-      "link-home": "Accueil",
-      "map": "Carte",
-      "alt-residents": "En savoir plus sur les résidents du village",
-      "about": "À propos",
-      "legal-notices": "Mentions légales"
-    },
-    "en": {
-      "title": "Harvest - Map",
-      "link-home": "Home",
-      "map": "Map",
-      "alt-residents": "Learn more about the village residents",
-      "about": "About",
-      "legal-notices": "Legal notices"
-    },
-    "kr": {
-      "title": "그물코 - 지도",
-      "link-home": "홈",
-      "map": "지도",
-      "alt-residents": "마을 주민들에 대해 더 알아보기",
-      "about": "소개",
-      "legal-notices": "법적 고지"
-    }
-  },
-  "player-intro": {
-    "fr": {
-      "title": "Recueil - Vidéo d'introduction",
-      "back": "← Retour à l'accueil",
-      "skip": "Passer la vidéo →"
-    },
-    "en": {
-      "title": "Harvest - Introduction Video",
-      "back": "← Back to Home",
-      "skip": "Skip the video →"
-    },
-    "kr": {
-      "title": "그물코 - 소개 영상",
-      "back": "← 홈으로 돌아가기",
-      "skip": "영상 건너뛰기 →"
-    }
-  },
-  "after-intro": {
-    "fr": {
-      "title": "Recueil — Introduction",
-      "phrase1": "Sannae est une commune rurale située dans le parc national du Jirisan, en Corée du Sud.",
-      "phrase2": "Ici prend racine l’association Indra’s Net du temple bouddhiste Silsang-sa.",
-      "phrase3": " Partez à la rencontre de ses habitants en parcourant les lieux.",
-      "explore-btn": "Explorer →"
-    },
-    "en": {
-      "title": "Harvest — Introduction",
-      "phrase1": "Sannae is a rural commune located in Jirisan National Park, in South Korea.",
-      "phrase2": "Here, the Indra's Net association of the Buddhist temple Silsang-sa took root.",
-      "phrase3": "Go and meet its inhabitants by exploring the area.",
-      "explore-btn": "Explore →"
-    },
-    "kr": {
-      "title": "그물코 — 소개",
-      "phrase1": "산내는 대한민국 지리산 국립공원에 위치한 농촌 마을입니다.",
-      "phrase2": "이곳에는 실상사 불교 사찰의 인드라망 공동체가 자리하고 있습니다.",
-      "phrase3": "마을 곳곳을 거닐며 주민들을 만나보세요.",
-      "explore-btn": "탐험하기 →"
-    }
-  },
-  "player-full": {
-    "fr": {
-      "title": "Recueil — Documentaire entier",
-      "back": "← Retour à l'accueil"
-    },
-    "en": {
-      "title": "Harvest — Full Documentary",
-      "back": "← Back to Home"
-    },
-    "kr": {
-      "title": "그물코 — 전체 다큐멘터리",
-      "back": "← 홈으로 돌아가기"
-    }
-  },
-  "player-ruralite": {
-    "fr": {
-      "title": "Recueil - Chapitre 1 : Habiter ici",
-      "back-map": "← Retour à la carte",
-      "skip": "Passer la vidéo →"
-    },
-    "en": {
-      "title": "Harvest - Chapter 1: Living Here",
-      "back-map": "← Back to Map",
-      "skip": "Skip the video →"
-    },
-    "kr": {
-      "title": "그물코 - 1장: 여기에서 살기",
-      "back-map": "← 지도로 돌아가기",
-      "skip": "영상 건너뛰기 →"
-    }
-  },
-  "player-silsangsa": {
-    "fr": {
-      "title": "Recueil - Chapitre 2 : Le filet d'Indra",
-      "back-map": "← Retour à la carte",
-      "skip": "Passer la vidéo →"
-    },
-    "en": {
-      "title": "Harvest - Chapter 2: Indra's Net",
-      "back-map": "← Back to Map",
-      "skip": "Skip the video →"
-    },
-    "kr": {
-      "title": "그물코 - 2장: 인드라망",
-      "back-map": "← 지도로 돌아가기",
-      "skip": "영상 건너뛰기 →"
-    }
-  },
 
   "annexe-ruralite": {
     "fr": {
@@ -163,9 +22,9 @@
       "paragraph-sannae-1": "Sannae-myeon (산내면) est un myeon (canton rural) de la ville de Namwon, dans le Jeonbuk (anciennement Jeollabuk-do, devenu Jeonbuk, province autonome spéciale, en 2024), au pied du Jirisan, à l'ouest du massif. Namwon est la plus petite ville du Jeonbuk (74 000 habitants en 2025), la capitale provinciale étant Jeonju (625 000).",
       "paragraph-sannae-2": "Sannae a longtemps fait figure d'exception dans le paysage rural coréen, mais le déclin l'a rattrapé : en février 2025, le canton regroupait 1 987 habitants, sous la barre des 2 000 pour la première fois en 17 ans. La population avait culminé à 2 225 en 2014, avant de redescendre : 2 088 fin 2022, 2 040 fin 2023, 2 006 fin 2024.",
       "paragraph-sannae-3": "La structure par âge est celle d'un territoire très vieillissant : les 50-69 ans représentent près de 47 % des habitants (50 ans : 23,7 % ; 60 ans : 23,2 %), tandis que les 20-30 ans ne sont que 186 personnes, soit 9,3 % du total. Le nombre de ménages, lui, a continué de croître jusqu'à un pic de 1 188 foyers en 2022 avant de refluer.",
-      "paragraph-jirisan-1": "Le Jirisan (지리산) est le tout premier parc national de Corée, désigné le 29 décembre 1967, et le plus vaste parc national terrestre du pays (471,75 km²). Il s'étend sur 3 provinces et 5 collectivités, Namwon (Jeonbuk), Gurye (Jeonnam), Hamyang, Sancheong et Hadong (Gyeongnam). Son point culminant, le Cheonwangbong (1 915 m), est le plus haut sommet de la Corée continentale (le Hallasan, sur l'île de Jeju, étant la plus haute montagne du pays) ; suivent le Banyabong (1 732 m) et le Nogodan (1 507 m).",
-      "paragraph-jirisan-2": "C'est aussi un lieu de forte charge symbolique : l'une des trois montagnes sacrées de Corée avec le Geumgangsan et le Hallasan, point de départ de la dorsale du Baekdudaegan, et un haut lieu de biodiversité, près de 4 989 espèces recensées, avec un programme emblématique de réintroduction de l'ours noir d'Asie.",
-      "paragraph-jirisan-3": "Côté fréquentation, le chiffre est bien plus élevé que les 1,5 million parfois cités : en 2024, le Jirisan a accueilli 3 763 467 visiteurs, ce qui en fait le 3e parc national le plus fréquenté de Corée (sur 22), derrière le Bukhansan (7,0 millions) et le parc de Gyeongju (3,86 millions). La barre des 3 millions est franchie chaque année hors Covid (3,78 M en 2022, 3,81 M en 2023, 3,76 M en 2024). À l'intérieur du parc, le temple de Hwaeomsa (Gurye) est le plus visité, avec environ 822 000 entrées. Silsangsa et Sannae se trouvent sur le versant nord-ouest, accessibles depuis Namwon ; c'est aussi par les sentiers du Jirisan Dulle-gil (chemin de ceinture) que beaucoup de néo-ruraux découvrent la vallée, le parcours évoqué par Bambi à propos de son futur mari venu gravir le Cheonwangbong.",
+      "paragraph-massif-1": "Le Jirisan (지리산) est le tout premier parc national de Corée, désigné le 29 décembre 1967, et le plus vaste parc national terrestre du pays (471,75 km²). Il s'étend sur 3 provinces et 5 collectivités, Namwon (Jeonbuk), Gurye (Jeonnam), Hamyang, Sancheong et Hadong (Gyeongnam). Son point culminant, le Cheonwangbong (1 915 m), est le plus haut sommet de la Corée continentale (le Hallasan, sur l'île de Jeju, étant la plus haute montagne du pays) ; suivent le Banyabong (1 732 m) et le Nogodan (1 507 m).",
+      "paragraph-massif-2": "C'est aussi un lieu de forte charge symbolique : l'une des trois montagnes sacrées de Corée avec le Geumgangsan et le Hallasan, point de départ de la dorsale du Baekdudaegan, et un haut lieu de biodiversité, près de 4 989 espèces recensées, avec un programme emblématique de réintroduction de l'ours noir d'Asie.",
+      "paragraph-massif-3": "Côté fréquentation, le chiffre est bien plus élevé que les 1,5 million parfois cités : en 2024, le Jirisan a accueilli 3 763 467 visiteurs, ce qui en fait le 3e parc national le plus fréquenté de Corée (sur 22), derrière le Bukhansan (7,0 millions) et le parc de Gyeongju (3,86 millions). La barre des 3 millions est franchie chaque année hors Covid (3,78 M en 2022, 3,81 M en 2023, 3,76 M en 2024). À l'intérieur du parc, le temple de Hwaeomsa (Gurye) est le plus visité, avec environ 822 000 entrées. Silsangsa et Sannae se trouvent sur le versant nord-ouest, accessibles depuis Namwon ; c'est aussi par les sentiers du Jirisan Dulle-gil (chemin de ceinture) que beaucoup de néo-ruraux découvrent la vallée, le parcours évoqué par Bambi à propos de son futur mari venu gravir le Cheonwangbong.",
       "caption-graph1": "Part rurale de la population coréenne au fil des ans",
       "caption-graph2": "Répartition de la population sur le territoire sud-coréen (2023)",
       "caption-saemaul": "Drapeau du Saemaul Undong",
@@ -233,9 +92,9 @@
       "paragraph-sannae-1": "Sannae-myeon (산내면) is a myeon (rural township) in the city of Namwon, located in Jeonbuk (formerly Jeollabuk-do, which became Jeonbuk Special Self-Governing Province in 2024), at the foot of Jirisan, on the west side of the massif. Namwon is the smallest city in Jeonbuk (74,000 inhabitants in 2025), while the provincial capital is Jeonju (625,000).",
       "paragraph-sannae-2": "Sannae long stood as an exception in the Korean rural landscape, but decline has caught up: in February 2025, the township had 1,987 residents, dropping below the 2,000 mark for the first time in 17 years. The population had peaked at 2,225 in 2014 before declining: 2,088 at the end of 2022, 2,040 at the end of 2023, and 2,006 at the end of 2024.",
       "paragraph-sannae-3": "The age structure reflects a heavily aging territory: those aged 50-69 represent nearly 47% of residents (50s: 23.7%; 60s: 23.2%), while young adults aged 20-30 number only 186 people, or 9.3% of the total. The number of households, however, continued to grow to a peak of 1,188 households in 2022 before ebbing.",
-      "paragraph-jirisan-1": "Jirisan (지리산) is Korea's very first national park, designated on December 29, 1967, and the country's largest terrestrial national park (471.75 km²). It spans 3 provinces and 5 municipalities: Namwon (Jeonbuk), Gurye (Jeonnam), Hamyang, Sancheong, and Hadong (Gyeongnam). Its highest point, Cheonwangbong (1,915 m), is the highest peak in mainland Korea (Hallasan, on Jeju Island, being the highest mountain in the country); followed by Banyabong (1,732 m) and Nogodan (1,507 m).",
-      "paragraph-jirisan-2": "It is also a place of strong symbolic weight: one of the three sacred mountains of Korea alongside Geumgangsan and Hallasan, the starting point of the Baekdudaegan ridge, and a hotspot for biodiversity with nearly 4,989 recorded species, featuring an emblematic Asiatic black bear reintroduction program.",
-      "paragraph-jirisan-3": "Regarding attendance, the figure is much higher than the 1.5 million sometimes cited: in 2024, Jirisan welcomed 3,763,467 visitors, making it the 3rd most visited national park in Korea (out of 22), behind Bukhansan (7.0 million) and Gyeongju Park (3.86 million). The 3 million mark is surpassed every year except during Covid (3.78M in 2022, 3.81M in 2023, 3.76M in 2024). Inside the park, Hwaeomsa Temple (Gurye) is the most visited, with around 822,000 entries. Silsangsa and Sannae are located on the northwestern slope, accessible from Namwon; it is also via the trails of the Jirisan Dulle-gil (circumference trail) that many neo-rural residents discover the valley, the path mentioned by Bambi regarding her future husband who came to climb Cheonwangbong.",
+      "paragraph-massif-1": "Jirisan (지리산) is Korea's very first national park, designated on December 29, 1967, and the country's largest terrestrial national park (471.75 km²). It spans 3 provinces and 5 municipalities: Namwon (Jeonbuk), Gurye (Jeonnam), Hamyang, Sancheong, and Hadong (Gyeongnam). Its highest point, Cheonwangbong (1,915 m), is the highest peak in mainland Korea (Hallasan, on Jeju Island, being the highest mountain in the country); followed by Banyabong (1,732 m) and Nogodan (1,507 m).",
+      "paragraph-massif-2": "It is also a place of strong symbolic weight: one of the three sacred mountains of Korea alongside Geumgangsan and Hallasan, the starting point of the Baekdudaegan ridge, and a hotspot for biodiversity with nearly 4,989 recorded species, featuring an emblematic Asiatic black bear reintroduction program.",
+      "paragraph-massif-3": "Regarding attendance, the figure is much higher than the 1.5 million sometimes cited: in 2024, Jirisan welcomed 3,763,467 visitors, making it the 3rd most visited national park in Korea (out of 22), behind Bukhansan (7.0 million) and Gyeongju Park (3.86 million). The 3 million mark is surpassed every year except during Covid (3.78M in 2022, 3.81M in 2023, 3.76M in 2024). Inside the park, Hwaeomsa Temple (Gurye) is the most visited, with around 822,000 entries. Silsangsa and Sannae are located on the northwestern slope, accessible from Namwon; it is also via the trails of the Jirisan Dulle-gil (circumference trail) that many neo-rural residents discover the valley, the path mentioned by Bambi regarding her future husband who came to climb Cheonwangbong.",
       "caption-graph1": "Rural share of the Korean population over the years",
       "caption-graph2": "Population distribution across South Korean territory (2023)",
       "caption-saemaul": "Saemaul Undong flag",
@@ -303,9 +162,9 @@
       "paragraph-sannae-1": "산내면(산내면)은 전북특별자치도(기존 전라북도에서 2024년 특별자치도로 변경) 남원시에 위치한 면(농촌 행정구역)으로, 지리산 자락의 서편에 자리 잡고 있습니다. 남원시는 전북에서 가장 작은 시(2025년 기준 인구 7만 4,000명)이며, 도청 소재지는 전주시(62만 5,000명)입니다.",
       "paragraph-sannae-2": "산내는 오랫동안 한국 농촌 지역에서 예외적인 활력을 보여주는 곳으로 꼽혔으나, 결국 인구 감소의 흐름을 피하지 못했습니다: 2025년 2월 기준 산내면 인구는 1,987명으로, 17년 만에 처음으로 2,000명 선이 무너졌습니다. 인구는 2014년 2,225명으로 정점을 찍은 후 점차 감소하여 2022년 말 2,088명, 2023년 말 2,040명, 2024년 말 2,006명을 기록했습니다.",
       "paragraph-sannae-3": "연령 구조를 보면 전형적인 초고령화 지역의 모습을 띠고 있습니다: 50~69세 인구가 주민의 약 47%를 차지하는 반면(50대: 23.7%, 60대: 23.2%), 20~30대 청년 인구는 186명으로 전체의 9.3%에 불과합니다. 반면, 가구 수는 2022년 1,188가구로 정점을 찍을 때까지 계속 증가하다가 이후 감소세로 돌아섰습니다.",
-      "paragraph-jirisan-1": "지리산(지리산)은 1967년 12월 29일에 지정된 대한민국 최초의 국립공원이자, 육상 국립공원 중 가장 넓은 면적(471.75㎢)을 자랑합니다. 전북(남원시), 전남(구례군), 경남(함양군, 산청군, 하동군) 등 3개 도와 5개 시·군에 걸쳐 있습니다. 최고봉인 천왕봉(1,915m)은 남한 내륙에서 가장 높은 산이며(제주도 한라산이 대한민국 최고봉), 반야봉(1,732m)과 노고단(1,507m)이 그 뒤를 잇습니다.",
-      "paragraph-jirisan-2": "또한 지리산은 금강산, 한라산과 함께 삼신산(三神山) 중 하나로 꼽히는 강한 상징적 의미를 지닌 곳이며, 백두대간의 종착점이자 시발점입니다. 약 4,989종의 생물이 서식하는 생물 다양성의 보고이기도 하며, 반달가슴곰 복원 사업이 대표적으로 진행되고 있습니다.",
-      "paragraph-jirisan-3": "방문객 수의 경우, 간혹 인용되는 150만 명이라는 수치보다 훨씬 높습니다: 2024년 지리산 국립공원은 3,763,467명의 탐방객을 맞이하여, 국립공원(총 22개) 중 북한산(700만 명), 경주 국립공원(386만 명)에 이어 세 번째로 많은 방문객이 찾는 곳이 되었습니다. 코로나19 시기를 제외하면 매년 300만 명 선을 웃돌고 있습니다(2022년 378만 명, 2023년 381만 명, 2024년 376만 명). 국립공원 내부에서는 구례의 화엄사가 약 822,000명의 방문객을 기록하며 가장 많이 찾는 명소로 나타났습니다. 실상사와 산내면은 남원 방면에서 접근 가능한 지리산의 북서쪽 사면에 위치해 있습니다. 또한 많은 귀농·귀촌인들이 지리산 둘레길을 걷다가 이 계곡을 발견하게 되는데, 이는 다큐멘터리 속 '밤비' 출연자가 천왕봉에 오르기 위해 찾아왔던 미래의 남편에 대해 언급한 경로와도 일치합니다.",
+      "paragraph-massif-1": "지리산(지리산)은 1967년 12월 29일에 지정된 대한민국 최초의 국립공원이자, 육상 국립공원 중 가장 넓은 면적(471.75㎢)을 자랑합니다. 전북(남원시), 전남(구례군), 경남(함양군, 산청군, 하동군) 등 3개 도와 5개 시·군에 걸쳐 있습니다. 최고봉인 천왕봉(1,915m)은 남한 내륙에서 가장 높은 산이며(제주도 한라산이 대한민국 최고봉), 반야봉(1,732m)과 노고단(1,507m)이 그 뒤를 잇습니다.",
+      "paragraph-massif-2": "또한 지리산은 금강산, 한라산과 함께 삼신산(三神山) 중 하나로 꼽히는 강한 상징적 의미를 지닌 곳이며, 백두대간의 종착점이자 시발점입니다. 약 4,989종의 생물이 서식하는 생물 다양성의 보고이기도 하며, 반달가슴곰 복원 사업이 대표적으로 진행되고 있습니다.",
+      "paragraph-massif-3": "방문객 수의 경우, 간혹 인용되는 150만 명이라는 수치보다 훨씬 높습니다: 2024년 지리산 국립공원은 3,763,467명의 탐방객을 맞이하여, 국립공원(총 22개) 중 북한산(700만 명), 경주 국립공원(386만 명)에 이어 세 번째로 많은 방문객이 찾는 곳이 되었습니다. 코로나19 시기를 제외하면 매년 300만 명 선을 웃돌고 있습니다(2022년 378만 명, 2023년 381만 명, 2024년 376만 명). 국립공원 내부에서는 구례의 화엄사가 약 822,000명의 방문객을 기록하며 가장 많이 찾는 명소로 나타났습니다. 실상사와 산내면은 남원 방면에서 접근 가능한 지리산의 북서쪽 사면에 위치해 있습니다. 또한 많은 귀농·귀촌인들이 지리산 둘레길을 걷다가 이 계곡을 발견하게 되는데, 이는 다큐멘터리 속 '밤비' 출연자가 천왕봉에 오르기 위해 찾아왔던 미래의 남편에 대해 언급한 경로와도 일치합니다.",
       "caption-graph1": "연도별 한국 인구 중 농촌 인구 비율",
       "caption-graph2": "대한민국 영토 내 인구 분포 (2023년)",
       "caption-saemaul": "새마을운동 기",
@@ -352,150 +211,3 @@
       "legal-notices": "법적 고지"
     }
   },
-
-  "annexe-silsangsa": {
-    "fr": {
-      "title": "Recueil - Silsangsa et l'Indra's net",
-      "link-home": "Accueil",
-      "link-map": "Carte",
-      "map-details": "Silsangsa et l'Indra's net",
-      "h1": "Silsangsa et l'Indra's net",
-      "btn-experience": "Voir la capsule documentaire",
-      "btn-map": "Continuer sur la carte",
-      "details-title-1": "1. Le bouddhisme dans la Corée contemporaine",
-      "details-title-2": "2. Un bouddhisme de montagne et de campagne",
-      "details-title-3": "3. Le bouddhisme et l'État : de l'ère Saemaul à la réforme",
-      "details-title-4": "4. La politique du temple stay",
-      "details-title-5": "5. Silsangsa et l'Indra's net, un bouddhisme engagé",
-      "paragraph-1": "Longtemps religion dominante, le bouddhisme n'est plus aujourd'hui que la deuxième confession du pays, et une confession en recul.",
-      "about": "À propos",
-      "legal-notices": "Mentions légales"
-    },
-    "en": {
-      "title": "Harvest - Silsangsa and Indra's Net",
-      "link-home": "Home",
-      "link-map": "Map",
-      "map-details": "Silsangsa and Indra's Net",
-      "h1": "Silsangsa and Indra's Net",
-      "btn-experience": "Watch the documentary capsule",
-      "btn-map": "Continue to the map",
-      "details-title-1": "1. Buddhism in contemporary Korea",
-      "details-title-2": "2. A Buddhism of mountains and countryside",
-      "details-title-3": "3. Buddhism and the state: from the Saemaul era to reform",
-      "details-title-4": "4. The temple stay policy",
-      "details-title-5": "5. Silsangsa and Indra's Net, an engaged Buddhism",
-      "paragraph-1": "Long the dominant religion, Buddhism is today only the second faith in the country, and a declining one.",
-      "about": "About",
-      "legal-notices": "Legal notices"
-    },
-    "kr": {
-      "title": "그물코 - 실상사와 인드라망",
-      "link-home": "홈",
-      "link-map": "지도",
-      "map-details": "실상사와 인드라망",
-      "h1": "실상사와 인드라망",
-      "btn-experience": "다큐멘터리 캡슐 보기",
-      "btn-map": "지도로 계속하기",
-      "details-title-1": "1. 현대 한국의 불교",
-      "details-title-2": "2. 산과 농촌의 불교",
-      "details-title-3": "3. 불교와 국가 : 새마을 시대에서 개혁으로",
-      "details-title-4": "4. 템플스테이 정책",
-      "details-title-5": "5. 실상사와 인드라망, 참여불교",
-      "paragraph-1": "오랫동안 지배적인 종교였던 불교는 오늘날 국내 두 번째 종교일 뿐이며, 쇠퇴하고 있는 종교입니다.",
-      "about": "소개",
-      "legal-notices": "법적 고지"
-    }
-  },
-  "a-propos": {
-    "fr": {
-      "title": "Recueil — À propos",
-      "link-home": "Accueil",
-      "about-fil": "À propos",
-      "h1": "À propos",
-      "subtitle": "Ce site web sert de support de visionnage au documentaire Recueil, réalisé en collaboration entre les étudiants français de l'université Gustave Eiffel et les étudiants coréens de l'université Dong-Eui. L'utilisateur peut visionner le documentaire dans son entièreté ou bien découvrir le documentaire à travers une expérience interactive.",
-      "label-projet": "Le projet",
-      "projet-p1": "Ce projet est issu d'une volonté académique de l'Université Gustave Eiffel de faire collaborer les étudiants coréens et étudiants français dans le cadre d'un documentaire filmé en Corée du Sud ayant comme sujet « Les traces du passé dans le présent ».",
-      "projet-p2": "Notre documentaire se focalise sur le thème de la ruralité en Corée du Sud. À travers le village, ses activités (agricoles, associatives) et le temple de Silsangsa (실상사) situé à Namwon, dans la province Nord de Jeolla, en Corée du Sud, nous souhaitons montrer un aspect de la campagne coréenne qui est à ce jour peu abordé.",
-      "projet-p3": "Notre documentaire se construit autour de plans montrant le village, d'interviews de ses habitants, ainsi que des plans de la vie locale. Les interviews permettent au spectateur de comprendre plus en profondeur l'exode rural subi par le village et le rayonnement de Silsangsa sur celui-ci.",
-      "projet-p4": "Enfin, notre documentaire porte en son sein une partie plus spirituelle, étant donné que Silsangsa est un temple abritant le mouvement de l'Indra's Net. Ce mouvement religieux auquel adhèrent de nombreux habitants interviewés est né dans le temple et participe à la trame globale de notre documentaire.",
-      "label-equipe": "Équipe",
-      "equipe-fr-titre": "Côté français",
-      "role-direction": "Direction de projet",
-      "role-recherche": "Recherche / Documentation",
-      "role-image": "Image",
-      "role-son": "Son",
-      "role-montage": "Montage",
-      "role-mixage": "Mixage audio",
-      "role-graphisme": "Graphisme",
-      "role-dev": "Développement Web",
-      "role-multilinguisme": "Multilinguisme",
-      "equipe-kr-titre": "Côté coréen",
-      "role-cheffe": "Cheffe de projet / transcription / recherches",
-      "role-transcription": "Transcription / recherches",
-      "role-traduction": "Traduction",
-      "role-assistante": "Assistante",
-      "about": "À propos",
-      "legal-notices": "Mentions légales"
-    },
-    "en": {
-      "title": "Recueil — About",
-      "link-home": "Home",
-      "about-fil": "About",
-      "h1": "About",
-      "subtitle": "This website serves as a viewing platform for the documentary Recueil, made in collaboration between French students from Université Gustave Eiffel and Korean students from Dong-Eui University. Users can watch the documentary in full or discover it through an interactive experience.",
-      "label-projet": "The project",
-      "projet-p1": "This project stems from an academic initiative by Université Gustave Eiffel to bring together Korean and French students for a documentary filmed in South Korea on the theme \"Traces of the past in the present\".",
-      "projet-p2": "Our documentary focuses on rural life in South Korea. Through the village, its activities (farming, community life) and the Silsangsa temple (실상사), located in Namwon, North Jeolla Province, South Korea, we wanted to show a side of the Korean countryside that is rarely covered.",
-      "projet-p3": "Our documentary is built around shots of the village, interviews with its residents, and scenes of everyday local life. The interviews give viewers deeper insight into the rural exodus the village has faced and the influence of Silsangsa on the community.",
-      "projet-p4": "Finally, our documentary carries a more spiritual dimension, since Silsangsa is a temple home to the Indra's Net movement. This religious movement, followed by many of the residents interviewed, originated at the temple and runs through the overall narrative of our documentary.",
-      "label-equipe": "Team",
-      "equipe-fr-titre": "French team",
-      "role-direction": "Project direction",
-      "role-recherche": "Research / Documentation",
-      "role-image": "Cinematography",
-      "role-son": "Sound",
-      "role-montage": "Editing",
-      "role-mixage": "Audio mixing",
-      "role-graphisme": "Graphic design",
-      "role-dev": "Web development",
-      "role-multilinguisme": "Multilingualism",
-      "equipe-kr-titre": "Korean team",
-      "role-cheffe": "Project lead / transcription / research",
-      "role-transcription": "Transcription / research",
-      "role-traduction": "Translation",
-      "role-assistante": "Assistant",
-      "about": "About",
-      "legal-notices": "Legal notices"
-    },
-    "kr": {
-      "title": "Recueil — 소개",
-      "link-home": "홈",
-      "about-fil": "소개",
-      "h1": "소개",
-      "subtitle": "이 웹사이트는 프랑스 귀스타브 에펠 대학교 학생들과 한국 동의대학교 학생들이 협력하여 제작한 다큐멘터리 'Recueil'의 시청 플랫폼입니다. 사용자는 다큐멘터리를 전체적으로 시청하거나 인터랙티브 경험을 통해 발견할 수 있습니다.",
-      "label-projet": "프로젝트",
-      "projet-p1": "이 프로젝트는 귀스타브 에펠 대학교의 학술적 취지에서 시작되었으며, 한국과 프랑스 학생들이 협력하여 \"현재 속 과거의 흔적\"이라는 주제로 한국에서 촬영한 다큐멘터리입니다.",
-      "projet-p2": "우리 다큐멘터리는 한국의 농촌 생활을 주제로 합니다. 전라북도 남원에 위치한 마을과 그 활동(농업, 공동체 활동), 그리고 실상사(實相寺)를 통해 지금까지 잘 다뤄지지 않은 한국 농촌의 한 단면을 보여주고자 합니다.",
-      "projet-p3": "우리 다큐멘터리는 마을의 모습, 주민 인터뷰, 그리고 지역 생활의 장면들로 구성되어 있습니다. 인터뷰를 통해 시청자는 마을이 겪은 농촌 인구 유출과 실상사가 마을에 미친 영향을 더 깊이 이해할 수 있습니다.",
-      "projet-p4": "마지막으로, 우리 다큐멘터리는 보다 영적인 측면도 담고 있습니다. 실상사는 인드라망 운동의 본거지인 사찰이기 때문입니다. 인터뷰에 응한 많은 주민들이 따르는 이 종교 운동은 사찰에서 시작되었으며, 다큐멘터리 전체의 줄기를 이룹니다.",
-      "label-equipe": "팀",
-      "equipe-fr-titre": "프랑스 측",
-      "role-direction": "프로젝트 총괄",
-      "role-recherche": "리서치 / 자료조사",
-      "role-image": "촬영",
-      "role-son": "음향",
-      "role-montage": "편집",
-      "role-mixage": "오디오 믹싱",
-      "role-graphisme": "그래픽 디자인",
-      "role-dev": "웹 개발",
-      "role-multilinguisme": "다국어 작업",
-      "equipe-kr-titre": "한국 측",
-      "role-cheffe": "프로젝트 리더 / 녹취 / 리서치",
-      "role-transcription": "녹취 / 리서치",
-      "role-traduction": "번역",
-      "role-assistante": "보조",
-      "about": "소개",
-      "legal-notices": "법적 고지"
-    }
-  }
-}

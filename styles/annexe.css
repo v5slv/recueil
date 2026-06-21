@@ -160,7 +160,7 @@ header.sur-hero .langues .top-link::before {
 }
 
 .content-noimg {
-  max-width: 52rem;
+  max-width: 58rem;
 }
 
 .content-oneimg {
@@ -299,6 +299,11 @@ p.img-caption {
   color: #828a6a;
 }
 
+.chap1_graph5 {
+  gap: 1rem;
+  align-self: center;
+}
+
 /* ── Tableau récapitulatif ── */
 .recap-table {
   margin-top: 0;
@@ -339,7 +344,7 @@ p.img-caption {
 }
 
 .recap-table-caption {
-  text-align: center;
+  text-align: right;
   font-size: 0.875rem;
   font-style: italic;
   color: #000;

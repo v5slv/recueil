@@ -177,9 +177,20 @@ a.btn.btn-secondary:hover {
   align-self: flex-start;
 }
 
+/* Hauteur réservée FIXE pour les graphiques traduisibles (FR/EN/KR).
+   Les fichiers source n'ont pas le même ratio largeur/hauteur selon la
+   langue (FR plus "large", EN/KR carrés 2048x2048 dans notre cas), ce qui
+   décalait le texte voisin à chaque changement de langue : la boîte image
+   grandissait/rétrécissait et poussait le h3/les paragraphes avec elle.
+   En figeant un aspect-ratio constant sur l'<img>, la boîte garde toujours
+   la même hauteur quel que soit le fichier chargé ; object-fit: contain
+   garantit que le dessin entier reste visible (jamais rogné), juste centré
+   dans cette boîte avec un éventuel espace résiduel (invisible car le fond
+   de l'image se fond dans le fond de page). */
 .context-img.stretch.contain img {
   flex: 0 0 auto;
   width: 100%;
+  aspect-ratio: 5 / 4;
   height: auto;
   object-fit: contain;
 }

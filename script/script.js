@@ -8,6 +8,26 @@ const fichier = window.location.pathname
   .replace("#", "");
 const PAGE = fichier === "" ? "index" : fichier;
 
+// Extension du fichier image par langue, pour chaque base d'image traduite.
+// fr garde l'extension d'origine présente dans le HTML (généralement .png),
+// en/kr sont fournies en .jpg dans le projet.
+const EXTENSIONS_IMG = {
+  chap1_graph1: { fr: "png", en: "jpg", kr: "jpg" },
+  chap1_graph2: { fr: "png", en: "jpg", kr: "jpg" },
+  chap1_graph3: { fr: "jpg", en: "jpg", kr: "jpg" },
+  chap1_graph5: { fr: "jpg", en: "jpg", kr: "jpg" },
+};
+
+function appliquerImagesTraduites(langue) {
+  document.querySelectorAll("[data-img-base]").forEach((img) => {
+    const base = img.getAttribute("data-img-base");
+    const extensions = EXTENSIONS_IMG[base];
+    if (!extensions) return;
+    const ext = extensions[langue] || extensions.fr;
+    img.src = `img/${base}_${langue}.${ext}`;
+  });
+}
+
 fetch("traductions.json")
   .then((res) => res.json())
   .then((data) => {
@@ -36,6 +56,8 @@ fetch("traductions.json")
         el.classList.toggle("coreen", langueSauvegardee === "kr");
       });
     }
+
+    appliquerImagesTraduites(langueSauvegardee);
   });
 
 function changerLangue(langue, el) {
@@ -62,6 +84,8 @@ function changerLangue(langue, el) {
     .querySelectorAll(".langues .top-link")
     .forEach((a) => a.classList.remove("actif"));
   el.classList.add("actif");
+
+  appliquerImagesTraduites(langue);
 
   localStorage.setItem("langue", langue);
 }

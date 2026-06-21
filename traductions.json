@@ -105,24 +105,24 @@
       "back": "← 홈으로 돌아가기"
     }
   },
-  "player-residents": {
+  "player-ruralite": {
     "fr": {
-      "title": "Recueil - Résidents",
+      "title": "Recueil - Chapitre 1 : Habiter ici",
       "back-map": "← Retour à la carte",
       "skip": "Passer la vidéo →"
     },
     "en": {
-      "title": "Harvest - Residents",
+      "title": "Harvest - Chapter 1: Living Here",
       "back-map": "← Back to Map",
       "skip": "Skip the video →"
     },
     "kr": {
-      "title": "그물코 - 주민들",
+      "title": "그물코 - 1장: 여기에서 살기",
       "back-map": "← 지도로 돌아가기",
       "skip": "영상 건너뛰기 →"
     }
   },
-  "text-residents": {
+  "annexe-ruralite": {
     "fr": {
       "title": "Recueil - La ruralité coréenne",
       "link-home": "Accueil",

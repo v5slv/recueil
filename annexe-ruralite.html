@@ -1,0 +1,931 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <script src="script/annexe.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/top-fil.css" />
+    <link rel="stylesheet" href="styles/annexe.css" />
+    <link rel="stylesheet" href="styles/annexe-ruralite.css" />
+    <title data-traduction="title">Recueil - La ruralité coréenne</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body class="documentaire-body">
+    <header>
+      <nav class="fil">
+        <a href="index.html" data-traduction="link-home" class="top-link"
+          >Accueil</a
+        >
+        <span>></span>
+        <a href="map.html" data-traduction="link-map" class="top-link">Carte</a>
+        <span>></span>
+        <span class="actif top-link" data-traduction="map-details"
+          >La ruralité coréenne</span
+        >
+      </nav>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button
+          href="#"
+          class="actif top-link langue"
+          onclick="changerLangue('fr', this)"
+        >
+          FR
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('en', this)"
+        >
+          EN
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('kr', this)"
+        >
+          한국어
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1 data-traduction="h1">La ruralité coréenne</h1>
+        <div class="hero-buttons">
+          <a
+            href="player-ruralite.html"
+            data-traduction="btn-experience"
+            class="btn btn-experience"
+            >Voir la capsule documentaire</a
+          >
+          <a href="map.html" data-traduction="btn-map" class="btn btn-secondary"
+            >Continuer sur la carte</a
+          >
+        </div>
+        <img
+          src="img/residents-bg.jpg"
+          alt=""
+          class="hero-bg"
+          id="heroBgStatic"
+        />
+      </div>
+
+      <div class="contents">
+        <!-- ════════════════ SECTION 1 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-1">
+                1. L'effondrement de la ruralité coréenne
+              </h2>
+              <p class="lead" data-traduction="paragraph-1">
+                En une génération, la Corée du Sud est passée d'une société
+                agraire à l'une des plus urbanisées du monde.
+              </p>
+              <p data-traduction="paragraph-2">
+                Avant l'industrialisation (début du XXe siècle), la population
+                urbaine ne représentait qu'environ 3 % du pays. La part rurale
+                culminait encore à 72,3 % en 1960, pour tomber à un minimum de
+                18,1 % en 2010 et 18,5 % en 2024. Depuis la guerre de Corée, le
+                pays est ainsi passé de 75 % à 18 % de population rurale, et
+                entre les années 1960 et 1990, plus de 10 millions de familles
+                ont quitté la campagne pour la ville.
+              </p>
+              <p data-traduction="paragraph-2b">
+                Cette bascule a pour miroir une concentration extrême dans la
+                région capitale. Séoul à elle seule occupe 0,6 % du territoire
+                mais abrite environ 20 % de la population. Surtout, la région
+                capitale au sens large (Séoul + Incheon + Gyeonggi) a franchi un
+                seuil symbolique : fin 2023, elle regroupait 26,1 millions
+                d'habitants, soit 50,7 % du pays, plus d'un Coréen sur deux vit
+                désormais là, sur une fraction du territoire. Le basculement est
+                récent (le cap des 50 % a été passé vers 2019-2020) et prolonge
+                un siècle d'exode rural vers les centres urbains : Séoul est
+                passée d'environ 2 millions d'habitants en 1960 à plus de 10
+                millions.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/Graph1.png"
+                alt="Graphique en barres : part rurale de la population coréenne en début de XXe siècle, 1960, 2010 et 2024"
+              />
+              <p class="img-caption">
+                Part rurale de la population coréenne au fil des ans
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg content-img-only">
+            <div class="context-img full">
+              <img
+                src="img/Graph2bis.png"
+                alt="Diagramme : répartition de la population entre Séoul/Incheon/Gyeonggi et le reste du territoire sud-coréen"
+              />
+              <p class="img-caption">
+                Répartition de la population sur le territoire sud-coréen (2023)
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-img small stretch contain">
+              <img src="img/image.png" alt="Drapeau du Saemaul Undong" />
+              <p class="img-caption">Drapeau du Saemaul Undong</p>
+            </div>
+            <div class="context-text wide">
+              <h3>Le Saemaul Undong : la modernisation par l'État</h3>
+              <p>
+                Au-delà des dynamiques démographiques contemporaines, l'État
+                coréen a historiquement orchestré une transformation radicale du
+                monde rural, notamment avec le mouvement Saemaul Undong.
+              </p>
+              <p>
+                Initié en 1970 par le président Park Chung-hee, ce programme de
+                modernisation visait à extirper les campagnes de la pauvreté.
+                Son originalité reposait sur un modèle hybride combinant l'aide
+                matérielle de l'État (fourniture de ciment et d'acier) et le
+                travail bénévole des villageois. Reposant sur une logique de
+                compétition méritocratique, ce système récompensait les
+                communautés les plus actives par des subventions accrues, tandis
+                que les villages passifs se voyaient privés de soutien.
+              </p>
+              <p>
+                Ce mouvement a profondément métamorphosé le paysage sud-coréen
+                en généralisant l'accès à l'électricité, en modernisant
+                l'habitat et en développant le réseau routier.
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h3>Population rurale et population agricole</h3>
+              <p>Il faut distinguer deux mesures souvent confondues :</p>
+              <ul class="dash-list">
+                <li>
+                  Population « rurale » (résidents des eup et myeon) : 14,0
+                  millions en 1985 (34,6 % du total), tombée à 8,7 millions en
+                  2005 (18,5 %), autour de 9,6 millions aujourd'hui (Banque
+                  mondiale).
+                </li>
+                <li>
+                  Population agricole (foyers agricoles, 농가인구), bien plus
+                  restreinte : environ 2,2 millions en 2021. Surtout, le nombre
+                  de foyers agricoles est passé sous la barre du million pour la
+                  première fois depuis le début du recensement en 1949 (999 000
+                  fin 2023).
+                </li>
+              </ul>
+              <p>
+                Le vieillissement y est important : la part des agriculteurs de
+                65 ans et plus a atteint 52,6 % en 2023 (contre 18,2 % pour
+                l'ensemble de la population), l'âge moyen de l'exploitant
+                atteint 67,7 ans, et à peine 5,5 % des agriculteurs ont moins de
+                40 ans. L'agriculture reste peu rémunératrice : 64,5 % des
+                foyers agricoles vendent pour moins de 10 millions de wons par
+                an (7 200 $).
+              </p>
+              <p>
+                Le tout sur fond d'effondrement démographique national : indice
+                de fécondité de 0,75 en 2024 (le plus bas au monde), plus de
+                décès que de naissances depuis 2020, et 19,3 % de la population
+                âgée de 65 ans et plus.
+              </p>
+            </div>
+            <div class="context-img small stretch">
+              <img
+                src="img/champs-population.jpg"
+                alt="Travailleurs agricoles dans un champ avec serres tunnel"
+              />
+            </div>
+          </section>
+
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-risque-extinction.jpg"
+                alt="Indice d'extinction locale : 0,615 en moyenne nationale contre 0,329 dans le Jeollanam-do, sous le seuil de risque de 0,5"
+              />
+              <p class="img-caption">
+                Indice d'extinction locale en Corée du Sud (Mars 2024)
+              </p>
+            </div>
+            <div class="context-text wide">
+              <h3>La « disparition régionale » (지방소멸)</h3>
+              <p>
+                L'Institut coréen de l'information sur l'emploi mesure un indice
+                d'extinction locale = rapport entre les femmes de 20-39 ans et
+                la population de 65 ans et plus. Une zone est jugée à haut
+                risque sous 0,5. La moyenne nationale est de 0,615 ; le
+                Jeollanam-do, voisin de Sannae, est le plus menacé à 0,329 (mars
+                2024).
+              </p>
+              <p>
+                Le Bureau d'audit prévoit qu'à l'horizon 2047, les 226 communes
+                du pays pourraient être en risque d'extinction, dont environ 70
+                % à risque élevé. Le risque est 5,8 fois plus élevé dans les
+                myeon que dans les eup. En 2022, près de 90 zones ont été
+                désignées « zones de dépeuplement » et dotées d'un fonds d'un
+                trillion de wons par an sur dix ans.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ SECTION 2 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-2">
+                2. Sannae-myeon
+              </h2>
+              <h3>Un canton rural au déclin démographique récent</h3>
+              <p>
+                Sannae-myeon (산내면) est un myeon (canton rural) de la ville de
+                Namwon, dans le Jeonbuk (anciennement Jeollabuk-do, devenu
+                Jeonbuk, province autonome spéciale, en 2024), au pied du
+                Jirisan, à l'ouest du massif. Namwon est la plus petite ville du
+                Jeonbuk (74 000 habitants en 2025), la capitale provinciale
+                étant Jeonju (625 000).
+              </p>
+              <p>
+                Sannae a longtemps fait figure d'exception dans le paysage rural
+                coréen, mais le déclin l'a rattrapé : en février 2025, le canton
+                comptait 1 987 habitants, sous la barre des 2 000 pour la
+                première fois en 17 ans. La population avait culminé à 2 225 en
+                2014, avant de redescendre : 2 088 fin 2022, 2 040 fin 2023, 2
+                006 fin 2024.
+              </p>
+              <p>
+                La structure par âge est celle d'un territoire très vieillissant
+                : les 50-69 ans représentent près de 47 % des habitants (50 ans
+                : 23,7 % ; 60 ans : 23,2 %), tandis que les 20-30 ans ne sont
+                que 186 personnes, soit 9,3 % du total. Le nombre de ménages,
+                lui, a continué de croître jusqu'à un pic de 1 188 foyers en
+                2022 avant de refluer.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-declin-demographique.jpg"
+                alt="Évolution de la population de Sannae-myeon : 2225 habitants en 2014, 2088 en 2022, 2040 en 2023, 2006 en 2024, 1987 en 2025"
+              />
+              <p class="img-caption">
+                Nombre d'habitants de Sannae au fil des ans
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg">
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-neoruraux-natifs.jpg"
+                alt="Répartition à parts égales entre néoruraux et natifs à Sannae"
+              />
+              <p class="img-caption">
+                Rapport entre les néo-ruraux et les natifs à Sannae
+              </p>
+            </div>
+            <div class="context-text wide">
+              <h3>L'afflux des néoruraux</h3>
+              <p>
+                Ce qui rend Sannae atypique, c'est l'ampleur du retour à la
+                campagne : le rapport entre habitants venus d'ailleurs
+                (귀농·귀촌) et natifs y est désormais proche de 1:1, une part
+                exceptionnelle pour un myeon.
+              </p>
+              <p>
+                Beaucoup viennent de Séoul, certains très diplômés, ils
+                s'installent souvent en couple actif
+                (trentenaires-quarantenaires), parfois en « demi-agriculture »
+                (un membre cultive, l'autre exerce un métier qualifié à
+                distance).
+              </p>
+              <p>
+                Une estimation de 2013 situait déjà ces nouveaux arrivants à
+                350-400 personnes. Cet afflux, adossé au temple de Silsangsa et
+                à la communauté Indramang, est justement une des
+                caractéristiques qui nous intéresse pour notre documentaire.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ SECTION 3 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-3">
+                3. Le Jirisan : montagne sacrée et premier parc national
+              </h2>
+              <h3>Le plus grand parc national sud-coréen</h3>
+              <p>
+                Le Jirisan (지리산) est le tout premier parc national de Corée,
+                désigné le 29 décembre 1967, et le plus vaste parc national
+                terrestre du pays (471,75 km²). Il s'étend sur 3 provinces et 5
+                collectivités, Namwon (Jeonbuk), Gurye (Jeonnam), Hamyang,
+                Sancheong et Hadong (Gyeongnam). Son point culminant, le
+                Cheonwangbong (1 915 m), est le plus haut sommet de la Corée
+                continentale (le Hallasan, sur l'île de Jeju, étant la plus
+                haute montagne du pays) ; suivent le Banyabong (1 732 m) et le
+                Nogodan (1 507 m).
+              </p>
+              <p>
+                C'est aussi un lieu de forte charge symbolique : l'une des trois
+                montagnes sacrées de Corée avec le Geumgangsan et le Hallasan,
+                point de départ de la dorsale du Baekdudaegan, et un haut lieu
+                de biodiversité, près de 4 989 espèces recensées, avec un
+                programme emblématique de réintroduction de l'ours noir d'Asie.
+              </p>
+            </div>
+            <div class="context-img small stretch">
+              <img
+                src="img/jirisan-ridge.jpg"
+                alt="Sentier de randonnée sur une crête du Jirisan"
+              />
+            </div>
+          </section>
+
+          <section class="content content-oneimg">
+            <div class="context-img small stretch">
+              <img
+                src="img/jirisan-clouds.jpg"
+                alt="Mer de nuages sur le massif du Jirisan, vue depuis les hauteurs près de Silsangsa"
+              />
+            </div>
+            <div class="context-text wide">
+              <h3>Un massif très fréquenté</h3>
+              <p>
+                Côté fréquentation, le chiffre est bien plus élevé que les 1,5
+                million parfois cités : en 2024, le Jirisan a accueilli 3 763
+                467 visiteurs, ce qui en fait le 3e parc national le plus
+                fréquenté de Corée (sur 22), derrière le Bukhansan (7,0
+                millions) et le parc de Gyeongju (3,86 millions).
+              </p>
+              <p>
+                La barre des 3 millions est franchie chaque année hors Covid
+                (3,78 M en 2022, 3,81 M en 2023, 3,76 M en 2024). À l'intérieur
+                du parc, le temple de Hwaeomsa (Gurye) est le plus visité, avec
+                environ 822 000 entrées.
+              </p>
+              <p>
+                Silsangsa et Sannae se trouvent sur le versant nord-ouest,
+                accessibles depuis Namwon ; c'est aussi par les sentiers du
+                Jirisan Dulle-gil (chemin de ceinture) que beaucoup de
+                néo-ruraux découvrent la vallée, le parcours évoqué par Bambi à
+                propos de son futur mari venu gravir le Cheonwangbong.
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ SECTION 4 ════════════════ -->
+        <section class="content-section">
+          <h2 class="num-heading" data-traduction="details-title-4">
+            4. Les définitions administratives et sociales de la ruralité
+            coréenne
+          </h2>
+
+          <div class="context-text wide">
+            <h3>Hiérarchie administrative</h3>
+            <p>
+              La Corée s'organise en : province (do) → ville/comté/district (si
+              / gun / gu) → bourg/canton/quartier (eup / myeon / dong) → village
+              (ri) → hameau (ban).
+            </p>
+            <p>
+              Avant 1995, l'opposition se faisait entre si (urbain) et gun
+              (rural) ; depuis la réforme de 1995 (création des villes mixtes
+              urbain-rural), le rural correspond aux eup et myeon, et l'urbain
+              aux dong. Concrètement :
+            </p>
+            <ul class="dash-list">
+              <li>
+                Eup (읍) : bourg plus étoffé, seuil minimal de 20 000 habitants.
+              </li>
+              <li>
+                Myeon (면) : canton, plus petit que l'eup, représentant les
+                zones rurales d'un comté ou d'une ville, c'est le statut de
+                Sannae, donc administrativement rural par définition.
+              </li>
+              <li>Dong (동) : quartier urbain.</li>
+            </ul>
+            <p>
+              À l'échelle nationale, le pays compte 216 eup et 1 198 myeon, et
+              ces zones rurales couvraient 89,7 % du territoire en 2005 pour à
+              peine 18 % de la population, un contraste qui résume la déprise
+              rurale.
+            </p>
+          </div>
+
+          <div class="context-text wide">
+            <h3>Définition sociale</h3>
+            <p>
+              Au-delà de l'administratif, la ruralité coréenne se caractérise
+              par une économie longtemps agricole, un vieillissement marqué, une
+              faible densité et des liens communautaires forts. Mais cette
+              définition se brouille : émergent le « 반농 » (ban-nong,
+              demi-agriculture, un membre du foyer cultive, l'autre exerce un
+              métier qualifié à distance) et surtout les dynamiques de 귀농 /
+              귀촌 (retour à la terre / retour au village).
+            </p>
+          </div>
+
+          <section class="content content-oneimg">
+            <div class="context-text wide">
+              <h3>Le mouvement 귀농·귀촌 (gwinong / gwichon)</h3>
+              <p>
+                La frontière urbain/rural se brouille surtout sous l'effet de ce
+                mouvement devenu un fait social majeur depuis les années 2010,
+                au point que l'État en publie des statistiques annuelles et en a
+                fait un levier explicite contre la « disparition régionale ».
+              </p>
+              <p>
+                On distingue le 귀농 (gwinong), installation à la campagne pour
+                y vivre de l'agriculture, et le 귀촌 (gwichon), bien plus
+                massif, installation en zone rurale sans en faire son métier
+                (choix de cadre de vie). L'écart entre les 2 modes de vie est
+                significatif : en 2024, on recense 318 658 foyers « gwichon »
+                (422 789 personnes) contre seulement 8 243 foyers « gwinong »
+                (10 710 personnes), l'écrasante majorité des néo-ruraux ne
+                viennent donc pas cultiver, mais vivre autrement.
+              </p>
+              <p>
+                Les deux profils divergent nettement : le retour proprement
+                agricole décline (en 2024, troisième année de baisse consécutive
+                et plus bas niveau jamais mesuré, la part des jeunes de moins de
+                40 ans atteignant en revanche un record), il est âgé (chef de
+                foyer de 56 ans en moyenne en 2023, avec près de 77 % de ménages
+                d'une seule personne) et plombé par des revenus agricoles
+                souvent inférieurs à 10 millions de wons par an.
+              </p>
+              <p>
+                Ces différences dynamiques traversent également le village de
+                Sannae, à la nuance près qu'ici le mouvement s'organise autour
+                d'un projet communautaire, ce qui en fait un cas
+                particulièrement abouti de redéfinition concrète du « rural ».
+              </p>
+            </div>
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-gwichon-gwinong.jpg"
+                alt="318 658 foyers gwichon contre 8 243 foyers gwinong en 2024"
+              />
+              <p class="img-caption">
+                Nombres de foyers gwichon et gwinong (2024)
+              </p>
+            </div>
+          </section>
+
+          <div class="recap-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>Niveau</th>
+                  <th>Coréen</th>
+                  <th>Romanisation</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td rowspan="4" class="row-group-label">
+                    Premier niveau<br />administratif
+                  </td>
+                  <td>도</td>
+                  <td>Do</td>
+                  <td>Province</td>
+                </tr>
+                <tr>
+                  <td>특별자치도</td>
+                  <td>Teukbyeol-jachido</td>
+                  <td>Province autonome spéciale</td>
+                </tr>
+                <tr>
+                  <td>광역시</td>
+                  <td>Gwangyeok-si</td>
+                  <td>Ville métropolitaine</td>
+                </tr>
+                <tr>
+                  <td>특별시</td>
+                  <td>Teukbyeol-si</td>
+                  <td>Ville spéciale (Séoul)</td>
+                </tr>
+                <tr>
+                  <td rowspan="3" class="row-group-label">
+                    Deuxième niveau<br />administratif
+                  </td>
+                  <td>시</td>
+                  <td>Si</td>
+                  <td>Ville</td>
+                </tr>
+                <tr>
+                  <td>군</td>
+                  <td>Gun</td>
+                  <td>Comté</td>
+                </tr>
+                <tr>
+                  <td>구</td>
+                  <td>Gu</td>
+                  <td>District / arrondissement</td>
+                </tr>
+                <tr>
+                  <td rowspan="3" class="row-group-label">
+                    Troisième niveau<br />administratif
+                  </td>
+                  <td>읍</td>
+                  <td>Eup</td>
+                  <td>Bourg</td>
+                </tr>
+                <tr>
+                  <td>면</td>
+                  <td>Myeon</td>
+                  <td>Canton rural</td>
+                </tr>
+                <tr>
+                  <td>동</td>
+                  <td>Dong</td>
+                  <td>Quartier urbain</td>
+                </tr>
+              </tbody>
+            </table>
+            <p class="recap-table-caption">
+              Tableau récapitulatif des classifications administratives du
+              territoire coréen
+            </p>
+          </div>
+        </section>
+
+        <!-- ════════════════ BIBLIOGRAPHIE ════════════════ -->
+        <section class="content-section">
+          <h2 class="num-heading">Bibliographie</h2>
+
+          <div class="biblio-block">
+            <h3>Contexte historique de la ruralité</h3>
+            <p>
+              TheGlobalEconomy.com, « South Korea: Rural population, percent »,
+              2024 —
+              <a
+                href="https://www.theglobaleconomy.com/South-Korea/rural_population_percent/"
+                target="_blank"
+                rel="noopener"
+                >theglobaleconomy.com</a
+              >
+            </p>
+            <p>
+              Macrotrends, « South Korea Rural / Urban Population, 1960-2023 » —
+              <a
+                href="https://www.macrotrends.net/global-metrics/countries/kor/south-korea/rural-population"
+                target="_blank"
+                rel="noopener"
+                >macrotrends.net</a
+              >
+            </p>
+            <p>
+              Facts and Details, « Rural Life in South Korea: Villages, Their
+              Growth and Decline » —
+              <a
+                href="https://factsanddetails.com/korea/South_Korea/Life_2/entry-7247.html"
+                target="_blank"
+                rel="noopener"
+                >factsanddetails.com</a
+              >
+            </p>
+            <p>
+              Korea Rural Economic Institute (KREI), Journal of Rural
+              Development, vol. 31 n°2 —
+              <a
+                href="https://krei.re.kr/attach/pdf/251597p.pdf"
+                target="_blank"
+                rel="noopener"
+                >krei.re.kr</a
+              >
+            </p>
+            <p>
+              Statistics Korea, via The Korea Herald, « Farming households dip
+              below 1m for first time in 2023 », 2024 —
+              <a
+                href="https://www.koreaherald.com/article/3374178"
+                target="_blank"
+                rel="noopener"
+                >koreaherald.com</a
+              >
+            </p>
+            <p>
+              Seoul Economic Daily, « Korea's Farming Population Aged 65+ Tops
+              50% for First Time », 2026 —
+              <a
+                href="https://en.sedaily.com/news/2026/04/29/koreas-farming-population-aged-65-tops-50-percent-for-first"
+                target="_blank"
+                rel="noopener"
+                >en.sedaily.com</a
+              >
+            </p>
+            <p>
+              Wikipedia, « Demographics of South Korea » —
+              <a
+                href="https://en.wikipedia.org/wiki/Demographics_of_South_Korea"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org</a
+              >
+            </p>
+            <p>
+              The Korea Herald, « South Korea's fastest-shrinking province… »,
+              2025 —
+              <a
+                href="https://www.koreaherald.com/article/10409343"
+                target="_blank"
+                rel="noopener"
+                >koreaherald.com</a
+              >
+            </p>
+            <p>
+              Kwon Y., Sohn M., Choi M., « Unmet healthcare needs and the local
+              extinction index », Frontiers in Public Health, 2024 —
+              <a
+                href="https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2024.1423108/full"
+                target="_blank"
+                rel="noopener"
+                >frontiersin.org</a
+              >
+            </p>
+            <p>
+              Jang M.-H., « Study on Classification of Depopulation Areas… »,
+              The Geographical Journal of Korea 57(1), 2023 —
+              <a href="https://www.kci.go.kr/" target="_blank" rel="noopener"
+                >kci.go.kr</a
+              >
+            </p>
+            <p>
+              « Local population change and the impact of local extinction in
+              Korea », Cancer Medicine (PMC), 2024 —
+              <a
+                href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11004912/"
+                target="_blank"
+                rel="noopener"
+                >pmc.ncbi.nlm.nih.gov</a
+              >
+            </p>
+            <p>
+              The Korea Herald, « Over half of population resides in Seoul
+              metropolitan area », 2024 —
+              <a
+                href="https://www.koreaherald.com/article/3326707"
+                target="_blank"
+                rel="noopener"
+                >koreaherald.com</a
+              >
+            </p>
+            <p>
+              Statista, « Seoul – statistics &amp; facts » —
+              <a
+                href="https://www.statista.com/topics/9076/seoul"
+                target="_blank"
+                rel="noopener"
+                >statista.com</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Sannae-myeon</h3>
+            <p>
+              작은변화연구소 (Small Change Lab), « 산내면 인구수, 17년만에
+              2,000명 아래로 내려갔다 », 2025 —
+              <a
+                href="https://jirisaneum.org/lab_contents/?bmode=view&idx=18316419"
+                target="_blank"
+                rel="noopener"
+                >jirisaneum.org</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 남원시 / 행정 » —
+              <a
+                href="https://namu.wiki/w/남원시/행정"
+                target="_blank"
+                rel="noopener"
+                >namu.wiki</a
+              >
+            </p>
+            <p>
+              Namwon City (남원시 대표 누리집), « 기본현황 » —
+              <a href="https://www.namwon.go.kr/" target="_blank" rel="noopener"
+                >namwon.go.kr</a
+              >
+            </p>
+            <p>
+              한국농정신문 (Korea Nongjeong News), « [대안적 삶을 찾아서]
+              인드라망 생명공동체 », 2013 —
+              <a
+                href="http://www.ikpnews.net/news/articleView.html?idxno=18811"
+                target="_blank"
+                rel="noopener"
+                >ikpnews.net</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Le parc national Jirisan</h3>
+            <p>
+              Wikipedia, « Jirisan National Park » —
+              <a
+                href="https://en.wikipedia.org/wiki/Jirisan_National_Park"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 지리산 » et « 지리산 / 관광 » —
+              <a
+                href="https://namu.wiki/w/지리산"
+                target="_blank"
+                rel="noopener"
+                >namu.wiki</a
+              >
+            </p>
+            <p>
+              경남일보 (Gyeongnam Ilbo), « 지리산 탐방객 전국에서 3번째로 많아
+              », 2025 —
+              <a
+                href="https://www.gnnews.co.kr/news/articleView.html?idxno=604983"
+                target="_blank"
+                rel="noopener"
+                >gnnews.co.kr</a
+              >
+            </p>
+            <p>
+              국립공원공단 (KNPS), « 국립공원 기본통계 2024 » —
+              <a href="https://www.knps.or.kr/" target="_blank" rel="noopener"
+                >knps.or.kr</a
+              >
+            </p>
+            <p>
+              National Parks Association, « Jirisan National Park » —
+              <a
+                href="https://nationalparksassociation.org/south-korea-national-parks/jirisan-national-park/"
+                target="_blank"
+                rel="noopener"
+                >nationalparksassociation.org</a
+              >
+            </p>
+            <p>
+              VisitKorea, « Jirisan Cheonwangbong Peak » —
+              <a
+                href="http://english.visitkorea.or.kr/"
+                target="_blank"
+                rel="noopener"
+                >english.visitkorea.or.kr</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Définition administrative et sociale de la ruralité</h3>
+            <p>
+              Korea Rural Economic Institute (KREI), Journal of Rural
+              Development vol. 31 n°2 —
+              <a
+                href="https://krei.re.kr/attach/pdf/251597p.pdf"
+                target="_blank"
+                rel="noopener"
+                >krei.re.kr</a
+              >
+            </p>
+            <p>
+              Wikipedia, « Administrative divisions of South Korea » —
+              <a
+                href="https://en.wikipedia.org/wiki/Administrative_divisions_of_South_Korea"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org</a
+              >
+            </p>
+            <p>
+              Wikipedia, « Eup », « Myeon » et « Dong (administrative division)
+              » —
+              <a
+                href="https://en.wikipedia.org/wiki/Myeon_(administrative_division)"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 읍면동 » —
+              <a
+                href="https://en.namu.wiki/w/읍면동"
+                target="_blank"
+                rel="noopener"
+                >en.namu.wiki</a
+              >
+            </p>
+            <p>
+              Military Wiki (Fandom), « Administrative divisions of South Korea
+              » —
+              <a
+                href="https://military-history.fandom.com/wiki/Administrative_divisions_of_South_Korea"
+                target="_blank"
+                rel="noopener"
+                >military-history.fandom.com</a
+              >
+            </p>
+            <p>
+              통계청 (Statistics Korea), « 2023년 귀농어·귀촌인 통계 », 2024 —
+              <a href="https://kostat.go.kr/" target="_blank" rel="noopener"
+                >kostat.go.kr</a
+              >
+            </p>
+            <p>
+              통계청 / 농림축산식품부 / 해양수산부, « 2024년 귀농어·귀촌인 통계
+              », 2025 —
+              <a
+                href="https://www.freezine.co.kr/news/articleView.html?idxno=10836"
+                target="_blank"
+                rel="noopener"
+                >freezine.co.kr</a
+              >
+            </p>
+            <p>
+              農축유통신문, « [특집] 2023년 귀농·귀촌인 통계 », 2024 —
+              <a
+                href="https://www.amnews.co.kr/news/articleView.html?idxno=59866"
+                target="_blank"
+                rel="noopener"
+                >amnews.co.kr</a
+              >
+            </p>
+            <p>
+              농민신문 (Nongmin), « [사설] 2024년 귀농·귀촌인 통계에 주목하는
+              이유 », 2025 —
+              <a
+                href="https://www.nongmin.com/article/20250623500623"
+                target="_blank"
+                rel="noopener"
+                >nongmin.com</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
+      <span>—</span>
+      <a
+        href="mentions-legales.html"
+        data-traduction="legal-notices"
+        class="link"
+        >Mentions légales</a
+      >
+
+      <button class="son" id="btnSon">
+        <svg
+          class="icon-son-on"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+        <svg
+          class="icon-son-off"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

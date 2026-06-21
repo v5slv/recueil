@@ -1,0 +1,821 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Ovo&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script/script.js" defer></script>
+    <script src="script/annexe.js" defer></script>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/top-fil.css" />
+    <link rel="stylesheet" href="styles/annexe.css" />
+    <link rel="stylesheet" href="styles/annexe-silsangsa.css" />
+    <title data-traduction="title">Recueil - Silsangsa et l'Indra's net</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+  </head>
+  <body class="documentaire-body">
+    <header>
+      <nav class="fil">
+        <a href="index.html" data-traduction="link-home" class="top-link"
+          >Accueil</a
+        >
+        <span>></span>
+        <a href="map.html" data-traduction="link-map" class="top-link">Carte</a>
+        <span>></span>
+        <span class="actif top-link" data-traduction="map-details"
+          >Silsangsa et l'Indra's net</span
+        >
+      </nav>
+      <nav class="langues" aria-label="Choix de la langue">
+        <button
+          href="#"
+          class="actif top-link langue"
+          onclick="changerLangue('fr', this)"
+        >
+          FR
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('en', this)"
+        >
+          EN
+        </button>
+        <span>/</span>
+        <button
+          href="#"
+          class="top-link langue"
+          onclick="changerLangue('kr', this)"
+        >
+          한국어
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero">
+        <h1 data-traduction="h1">Silsangsa et l'Indra's net</h1>
+        <div class="hero-buttons">
+          <a
+            href="player-silsangsa.html"
+            data-traduction="btn-experience"
+            class="btn btn-experience"
+            >Voir la capsule documentaire</a
+          >
+          <a href="map.html" data-traduction="btn-map" class="btn btn-secondary"
+            >Continuer sur la carte</a
+          >
+        </div>
+        <img
+          src="img/batiments-templestay-indra.jpg"
+          alt=""
+          class="hero-bg"
+          id="heroBgStatic"
+        />
+      </div>
+
+      <div class="contents">
+        <!-- ════════════════ SECTION 1 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-1">
+                1. Le bouddhisme dans la Corée contemporaine
+              </h2>
+              <p class="lead" data-traduction="paragraph-1">
+                Longtemps religion dominante, le bouddhisme n'est plus
+                aujourd'hui que la deuxième confession du pays, et une
+                confession en recul.
+              </p>
+              <p>
+                Depuis 2019, les enquêtes le situent autour de 16-17 % de la
+                population, derrière le protestantisme (20 %) et devant le
+                catholicisme (11 %), tandis que la moitié des Coréens se
+                déclarent sans religion, une part des « sans-religion » passée
+                d'environ 43 % en 2004 à près de 53 % en 2023. Le décrochage est
+                net sur le temps long : le bouddhisme est tombé de 22,8 % de la
+                population au recensement de 2005 à 15,5 % en 2015, et une
+                enquête de 2024 montre que 42 % des Coréens élevés dans le
+                bouddhisme ne s'en réclament plus, au point qu'il apparaît comme
+                la seule grande religion mondiale en déclin.
+              </p>
+              <p>
+                Deux traits comptent particulièrement. D'abord le vieillissement
+                : 43 % des bouddhistes ont plus de 60 ans et seulement 18 %
+                moins de 30 ans, la population religieuse vieillissant plus vite
+                que la population générale. Ensuite, c'est une religion des
+                régions, pas de la capitale : seuls 39 % des bouddhistes vivent
+                dans la région capitale (contre 51 % de la population), alors
+                que 40 % résident dans le Yeongnam, au sud-est, de toutes les
+                grandes confessions, le bouddhisme est la seule à être
+                concentrée hors de la métropole.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-religions-coree.jpg"
+                alt="Répartition des religions en Corée du Sud : 53 % sans religion, 20 % protestantisme, 16 % bouddhisme, 11 % catholicisme"
+              />
+              <p class="img-caption">Religions en Corée du Sud (2023)</p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ SECTION 2 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-2">
+                2. Un bouddhisme de montagne et de campagne
+              </h2>
+              <h3>Un bouddhisme de montagne, marginalisé puis consacré</h3>
+              <p>
+                Cet ancrage géographique n'est pas un hasard : il est
+                historique. Sous le Joseon (1392-1910), cinq siècles de
+                néo-confucianisme d'État ont marginalisé le bouddhisme et chassé
+                les temples des villes vers les montagnes, si bien qu'il
+                n'existe aujourd'hui aucun grand temple historique pleinement
+                actif à Séoul, et que les temples les plus représentatifs se
+                trouvent dans les zones rurales et montagneuses. Le bouddhisme
+                coréen est donc, structurellement, un bouddhisme de montagne.
+              </p>
+              <p>
+                L'UNESCO l'a consacré en 2018 en inscrivant les Sansa,
+                monastères bouddhistes de montagne de Corée : sept temples
+                fondés entre le VIIe et le IXe siècle, disséminés dans les
+                provinces méridionales, organisés autour d'une cour centrale
+                (madang) et restés des lieux vivants de pratique quotidienne, et
+                non des musées. Dans des campagnes qui se vident et
+                vieillissent, le temple reste souvent la dernière institution
+                qui tienne une vie culturelle et communautaire.
+              </p>
+            </div>
+            <div class="context-img small stretch">
+              <img
+                src="img/buseoksa-temple.jpg"
+                alt="Temple Buseoksa, un temple Sansa"
+              />
+              <p class="img-caption">
+                Temple Buseoksa 부석사, un temple Sansa (2018)
+              </p>
+            </div>
+          </section>
+
+          <div class="context-text wide">
+            <h3>Silsangsa, premier temple Seon de Corée</h3>
+            <p>
+              C'est exactement le cadre de Recueil. Silsangsa, vieux de 1 200
+              ans, est le premier des « Neuf montagnes Seon » (구산선문) : fondé
+              en 828 par le maître Hongcheok (Jeunggak), de retour de Chine des
+              Tang, il y implanta pour la première fois en Corée l'enseignement
+              du Seon, avec une singularité : le temple n'est pas à flanc de
+              montagne mais au niveau des champs et du village, ce qui le
+              prédisposait à un rôle communautaire.
+            </p>
+          </div>
+        </section>
+
+        <!-- ════════════════ SECTION 3 ════════════════ -->
+        <section class="content-section">
+          <h2 class="num-heading" data-traduction="details-title-3">
+            3. Le bouddhisme et l'État : de l'ère Saemaul à la réforme
+          </h2>
+
+          <div class="context-text wide">
+            <p>
+              Pour comprendre la centralité du temple Silsangsa, il faut
+              replacer le bouddhisme dans son rapport à l'État coréen au XXe
+              siècle.
+            </p>
+          </div>
+
+          <section class="content content-oneimg">
+            <div class="context-text wide">
+              <h3>Le Saemaul Undong, une modernisation sans le bouddhisme</h3>
+              <p>
+                Comme nous l'avons évoqué dans le premier chapitre, la
+                transformation des campagnes après-guerre a d'abord été l'œuvre
+                de l'État, à travers le Mouvement Saemaul (새마을운동, «
+                mouvement des villages nouveaux »). Il a électrifié, modernisé
+                l'habitat et désenclavé les campagnes, mais, étroitement lié au
+                régime autoritaire du Yushin, il a été critiqué comme un
+                mouvement « para-gouvernemental » de mobilisation d'en haut,
+                surtout, son objectif d'augmentation des revenus a largement
+                échoué et il n'a pas enrayé l'exode rural.
+              </p>
+              <p>
+                Dans cette grande mobilisation nationale, le bouddhisme a joué
+                un rôle remarquablement effacé. Religion historiquement liée au
+                pouvoir, la tradition du « bouddhisme protecteur de l'État »
+                remonte aux royaumes anciens, il fut, parmi les grandes
+                confessions, le plus passif dans les mouvements sociaux et
+                politiques (sa participation au mouvement d'indépendance du 1er
+                mars 1919 fut la plus faible). Sous les décennies
+                développementalistes et autoritaires, l'institution bouddhique
+                resta donc largement dans une posture d'accommodement : ni
+                moteur de la modernisation des campagnes, ni, contrairement à
+                une partie des Églises chrétiennes, matrice du mouvement minjung
+                pour la démocratie, foyer de contestation.
+              </p>
+            </div>
+            <div class="context-img small stretch">
+              <img
+                src="img/haeinsa-protestation.jpg"
+                alt="Protestation de moines bouddhistes coréens"
+              />
+              <p class="img-caption">
+                Protestation de moines du temple Haeinsa (années 80)
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg">
+            <div class="context-img small stretch">
+              <img
+                src="img/stele-jogyesa.jpg"
+                alt="Stèle commémorative du désastre du Dharma du 27 octobre, au temple Jogyesa"
+              />
+              <p class="img-caption">
+                Stèle commémorative du désastre du Dharma du 27 octobre, au
+                temple Jogyesa
+              </p>
+            </div>
+            <div class="context-text wide">
+              <h3>Un quiétisme rompu par la répression</h3>
+              <p>
+                Cette quiétude fut brutalement rompue. Le 27 octobre 1980, le
+                nouveau régime militaire de Chun Doo-hwan, sous prétexte de «
+                purification » du clergé, lança contre le bouddhisme une
+                répression d'une violence inouïe, le « désastre du Dharma du 27
+                octobre » (10·27 법난) : quelque 32 000 militaires et policiers
+                perquisitionnèrent près de 5 731 temples et ermitages, et
+                environ 1 900 moines furent arrêtés, détenus et torturés. La
+                véritable raison : la direction de l'ordre Jogye avait refusé de
+                soutenir la junte et s'était rendue à Gwangju auprès des
+                victimes du soulèvement de mai. Ce traumatisme, ajouté au
+                massacre de Gwangju, fut le point de départ d'un « bouddhisme
+                minjung » (민중불교) militant, puis de la grande réforme de
+                l'ordre Jogye en 1994, menée par de jeunes moines réformateurs
+                qui renversèrent la direction en place.
+              </p>
+            </div>
+          </section>
+
+          <div class="context-text wide">
+            <h3>Dobeop, héritier de la réforme</h3>
+            <p>
+              C'est de ce courant réformateur qu'est issu Dobeop : la confrérie
+              qu'il fonde en 1990 (Seonu Doryang) porte ce « mouvement du
+              bouddhisme pur » dont les propositions nourriront la réforme de
+              1994. Autrement dit, le bouddhisme engagé, écologique et
+              communautaire qu'incarnera Silsangsa n'est pas un accident local :
+              c'est l'un des fruits de la démocratisation du bouddhisme coréen
+              après l'ère autoritaire, une rupture assumée avec le bouddhisme
+              quiétiste et aligné sur l'État des décennies Saemaul. Pour toutes
+              ces raisons, on peut dire que le bouddhisme coréen a suivi les
+              évolutions et revendications politiques de la société coréenne
+              moderne.
+            </p>
+          </div>
+        </section>
+
+        <!-- ════════════════ SECTION 4 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-4">
+                4. La politique du temple stay
+              </h2>
+              <h3>Né de la Coupe du monde, devenu institution</h3>
+              <p>
+                Si les temples se sont rouverts à la société, c'est en grande
+                partie grâce à une politique culturelle née d'un événement
+                précis : la Coupe du monde de football 2002, coorganisée par la
+                Corée et le Japon.
+              </p>
+              <p>
+                Face à la pénurie d'hébergements pour les visiteurs étrangers,
+                et pour faire connaître la culture traditionnelle coréenne, le
+                ministère de la Culture et l'ordre Jogye lancèrent
+                conjointement, comme projet financé sur fonds publics, le
+                programme Temple stay (템플스테이) : séjourner dans un temple et
+                y partager la vie monastique. Du 31 mai au 30 juin 2002, environ
+                1 000 étrangers et 10 000 Coréens y participèrent, et la
+                couverture mondiale fit du temple coréen une vitrine culturelle
+                et une attraction touristique propre à la Corée du Sud.
+              </p>
+              <p>
+                Le succès conduisit à pérenniser le dispositif : l'ordre Jogye
+                créa le Cultural Corps of Korean Buddhism (한국불교문화사업단)
+                pour le gérer, avec le soutien budgétaire de l'État. La
+                croissance fut spectaculaire : de 33 temples et environ 2 558
+                participants en 2002, le programme est passé à 37 000
+                participants dès 2004, a franchi les 100 000 en 2008, et atteint
+                un record de 349 219 participants en 2025 (dont 55 515
+                étrangers), répartis sur 158 temples, soit un cumul d'environ
+                6,4 millions de visiteurs fin 2022.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch contain">
+              <img
+                src="img/graph-templestay-participants.jpg"
+                alt="Évolution du nombre de participants au temple stay : 2558 en 2002, 37000 en 2004, 100000 en 2008, 349219 en 2025"
+              />
+              <p class="img-caption">
+                Nombre de participants au temple stay au fil des ans
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg">
+            <div class="context-text wide">
+              <h3>Un pont entre le temple et la société urbaine</h3>
+              <p>
+                Au-delà du tourisme, le temple stay remplit trois fonctions :
+                une diplomatie culturelle (montrer la Corée au monde), un
+                produit de « bien-être » (méditation, repos) pour une société
+                urbaine sécularisée et stressée, porté par la semaine de cinq
+                jours, et un pont entre le temple et un public non religieux,
+                les 20-30 ans abordant de plus en plus le bouddhisme comme «
+                philosophie », « méditation » ou « healing » plutôt que comme
+                croyance, séduits par une approche « qui n'impose rien ».
+              </p>
+              <p>
+                Silsangsa propose son propre temple stay, « Le matin du Jirisan
+                » (지리산의 아침), de type « repos », explicitement adossé à la
+                philosophie de la vie-paix : vivre simplement, au sein de la
+                communauté, comme une pratique. C'est devant les habitations du
+                Temple Stay de Silsang-sa qu'a été tourné l'interview de Bambi,
+                la future mariée.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch">
+              <img
+                src="img/enseignement-templestay.jpg"
+                alt="Enseignements lors d'un temple stay à Silsangsa"
+              />
+              <p class="img-caption">
+                Enseignements lors d'un temple stay à Silsangsa (2024)
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ SECTION 5 ════════════════ -->
+        <section class="content-section">
+          <section class="content content-oneimg content-heading-row">
+            <div class="context-text wide">
+              <h2 class="num-heading" data-traduction="details-title-5">
+                5. Silsangsa et l'Indra's net, un bouddhisme engagé
+              </h2>
+              <h3>Un patrimoine Silla réinventé</h3>
+              <p>
+                Silsangsa est d'abord un haut lieu patrimonial : il conserve un
+                trésor national et onze trésors, pagodes de pierre, lanterne et
+                Bouddha de fer de l'époque Silla, et compte plusieurs ermitages
+                anciens alentour, dont Baekjangam. Mais ce qui en fait le sujet
+                du chapitre 2, c'est sa réinvention contemporaine en bouddhisme
+                engagé (참여불교), écologique et social.
+              </p>
+              <p>
+                Cette bascule tient beaucoup à une figure, le moine Dobeop (né
+                en 1949 à Jeju). Fondateur en 1990 d'une confrérie monastique
+                réformatrice (Seonu Doryang), devenu abbé de Silsangsa en 1995,
+                il offre en 1998 une partie des terres du temple pour fonder une
+                école de retour à la terre, puis crée en 1999 la communauté
+                Indramang, élargissant le projet du retour agricole vers les
+                coopératives, l'éducation alternative et l'écologie.
+              </p>
+            </div>
+            <div class="context-img small stretch">
+              <img
+                src="img/batiments-templestay-indra.jpg"
+                alt="Bâtiments du temple stay de Silsangsa et symbole de l'Indra's net"
+              />
+              <p class="img-caption">
+                Bâtiments du temple stay de Silsangsa et symbole de l'Indra's
+                net (2026)
+              </p>
+            </div>
+          </section>
+
+          <section class="content content-oneimg content-img-only">
+            <div class="context-img small">
+              <img
+                src="img/pagode-silla.jpg"
+                alt="Pagode en pierre datant de la période Silla"
+              />
+              <p class="img-caption">
+                Pagode en pierre datant de la période Silla (2026)
+              </p>
+            </div>
+          </section>
+
+          <div class="context-text wide">
+            <h3>Le mouvement vie-paix, de la prière à la marche</h3>
+            <p>
+              De là naît une décennie de « mouvement vie-paix » (생명평화) ancré
+              au Jirisan : issu du mouvement « Sauver le Jirisan » des années
+              1990, il passe par les mille jours de prière du Jirisan
+              (2001-2003), puis la fondation du Pacte vie-paix en novembre 2003,
+              et culmine dans un geste spectaculaire, le « pèlerinage d'aumône
+              pour la vie et la paix » mené par Dobeop du 1er mars 2004 au 14
+              décembre 2008, cinq années de marche à travers tout le pays.
+            </p>
+            <p>
+              Parti de Nogodan, au Jirisan, à raison d'environ 12 km par jour,
+              il commença par les communes de la région (Gurye, Hadong,
+              Sancheong, Hamyang, Namwon) marquées par les violences fratricides
+              de la guerre, recueillant des engagements individuels « pour la
+              vie et la paix ».
+            </p>
+          </div>
+
+          <section class="content content-oneimg">
+            <div class="context-text wide">
+              <h3>Le filet d'Indra, une philosophie de l'interdépendance</h3>
+              <p>
+                Le nom même de la communauté condense cette philosophie. «
+                Indramang » vient du Sutra Avatamsaka : le filet cosmique
+                d'Indra, tendu de joyaux qui se reflètent mutuellement, une
+                image de l'interdépendance (연기) de tous les êtres, que Dobeop
+                résume comme une « philosophie de la relation » et de « l'ici et
+                maintenant ».
+              </p>
+              <p>
+                C'est cette vision qui irrigue les structures concrètes que suit
+                le film, la Petite École (실상사 작은학교), l'association Han
+                Saengmyeong, la ferme, l'atelier Mokgeumto, le centre des
+                femmes, et qui fait de Silsangsa un temple tourné vers le
+                village plutôt que vers le retrait.
+              </p>
+            </div>
+            <div class="context-img chart-box stretch">
+              <img
+                src="img/petite-ecole-silsangsa.jpg"
+                alt="Bâtiment de la Petite École de Silsangsa"
+              />
+              <p class="img-caption">
+                Bâtiment de la Petite École de Silsangsa (2026)
+              </p>
+            </div>
+          </section>
+        </section>
+
+        <!-- ════════════════ BIBLIOGRAPHIE ════════════════ -->
+        <section class="content-section">
+          <h2 class="num-heading">Bibliographie</h2>
+
+          <div class="biblio-block">
+            <h3>Le bouddhisme dans la Corée contemporaine</h3>
+            <p>
+              Korea Research / hrcopinion, « 2024 &amp; 2025 Religious Awareness
+              Survey » —
+              <a
+                href="https://hrcopinion.co.kr/en/archives/34782"
+                target="_blank"
+                rel="noopener"
+                >hrcopinion.co.kr</a
+              >
+            </p>
+            <p>
+              Wikipedia, « Religion in South Korea » —
+              <a
+                href="https://en.wikipedia.org/wiki/Religion_in_South_Korea"
+                target="_blank"
+                rel="noopener"
+                >en.wikipedia.org</a
+              >
+            </p>
+            <p>
+              Statista, « Religion in South Korea, statistics &amp; facts » —
+              <a
+                href="https://www.statista.com/topics/12567/religion-in-south-korea/"
+                target="_blank"
+                rel="noopener"
+                >statista.com</a
+              >
+            </p>
+            <p>
+              Pew Research Center, « Religious switching into and out of
+              Buddhism », 2025 —
+              <a
+                href="https://www.pewresearch.org/religion/2025/03/26/religious-switching-into-and-out-of-buddhism/"
+                target="_blank"
+                rel="noopener"
+                >pewresearch.org</a
+              >
+            </p>
+            <p>
+              Buddhistdoor Global, « Buddhism the Only Major Religion
+              Experiencing Global Decline », 2026 —
+              <a
+                href="https://www.buddhistdoor.net/news/buddhism-is-the-only-major-religion-experiencing-global-decline-according-to-new-research/"
+                target="_blank"
+                rel="noopener"
+                >buddhistdoor.net</a
+              >
+            </p>
+            <p>
+              Association for Asian Studies, « Religious Diversity in Korea » —
+              <a
+                href="https://www.asianstudies.org/publications/eaa/archives/religious-diversity-in-korea/"
+                target="_blank"
+                rel="noopener"
+                >asianstudies.org</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Un bouddhisme de montagne et de campagne</h3>
+            <p>
+              UNESCO World Heritage Centre, « Sansa, Buddhist Mountain
+              Monasteries in Korea », 2018 —
+              <a
+                href="https://whc.unesco.org/en/list/1562/"
+                target="_blank"
+                rel="noopener"
+                >whc.unesco.org</a
+              >
+            </p>
+            <p>
+              worldheritagesite.org, « Sansa, Buddhist Mountain Monasteries » —
+              <a
+                href="https://www.worldheritagesite.org/list/sansa-buddhist-mountain-monasteries/"
+                target="_blank"
+                rel="noopener"
+                >worldheritagesite.org</a
+              >
+            </p>
+            <p>
+              Templestay.com / Silsangsa, « 실상사 » (도량 소개) —
+              <a
+                href="https://www.templestay.com/temple_info.asp?t_id=silsangsa"
+                target="_blank"
+                rel="noopener"
+                >templestay.com</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Le bouddhisme et l'État : de l'ère Saemaul à la réforme</h3>
+            <p>
+              국가기록원 (Archives nationales de Corée), « 새마을운동 기록물 » —
+              <a
+                href="https://theme.archives.go.kr/next/semaul2016/viewSub.do?dir=sub02&subPage=sub02-1-1"
+                target="_blank"
+                rel="noopener"
+                >theme.archives.go.kr</a
+              >
+            </p>
+            <p>
+              한국민족문화대백과사전 (encykorea), « 새마을운동 » —
+              <a
+                href="https://encykorea.aks.ac.kr/Article/E0027443"
+                target="_blank"
+                rel="noopener"
+                >encykorea.aks.ac.kr</a
+              >
+            </p>
+            <p>
+              우리역사넷, « 새마을운동 1970 » —
+              <a
+                href="https://contents.history.go.kr/mobile/kc/view.do?levelId=kc_i502400&code=kc_age_50"
+                target="_blank"
+                rel="noopener"
+                >contents.history.go.kr</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 새마을운동 » —
+              <a
+                href="https://namu.wiki/w/새마을운동"
+                target="_blank"
+                rel="noopener"
+                >namu.wiki</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 불교/대한민국 » (호국불교, perception contemporaine) —
+              <a
+                href="https://namu.wiki/w/불교/대한민국"
+                target="_blank"
+                rel="noopener"
+                >namu.wiki</a
+              >
+            </p>
+            <p>
+              NamuWiki, « 10.27 법난 » —
+              <a
+                href="https://namu.wiki/w/10.27%20법난"
+                target="_blank"
+                rel="noopener"
+                >namu.wiki</a
+              >
+            </p>
+            <p>
+              Wikipedia, « 10·27 법난 » —
+              <a
+                href="https://ko.wikipedia.org/wiki/10·27_법난"
+                target="_blank"
+                rel="noopener"
+                >ko.wikipedia.org</a
+              >
+            </p>
+            <p>
+              encykorea, « 10·27법난 » —
+              <a
+                href="https://encykorea.aks.ac.kr/Article/E0078632"
+                target="_blank"
+                rel="noopener"
+                >encykorea.aks.ac.kr</a
+              >
+            </p>
+            <p>
+              Wikipedia, « 대한불교조계종 » (réforme de 1994) —
+              <a
+                href="https://ko.wikipedia.org/wiki/대한불교조계종"
+                target="_blank"
+                rel="noopener"
+                >ko.wikipedia.org</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>La politique du temple stay</h3>
+            <p>
+              Wikipedia, « 템플스테이 » —
+              <a
+                href="https://ko.wikipedia.org/wiki/템플스테이"
+                target="_blank"
+                rel="noopener"
+                >ko.wikipedia.org</a
+              >
+            </p>
+            <p>
+              한국불교문화사업단 (Cultural Corps of Korean Buddhism) —
+              <a
+                href="https://www.templestay.com/"
+                target="_blank"
+                rel="noopener"
+                >templestay.com</a
+              >
+            </p>
+            <p>
+              Journal of Buddhism and Society (e-jbs), « Changes in Perception
+              of Templestay after COVID-19 », 2023 —
+              <a
+                href="https://www.e-jbs.org/archive/view_article?pid=jbs-15-2-107"
+                target="_blank"
+                rel="noopener"
+                >e-jbs.org</a
+              >
+            </p>
+            <p>
+              법보신문, « 템플스테이 10년 성과와 과제 », 2011 —
+              <a
+                href="https://www.beopbo.com/news/articleView.html?idxno=66607"
+                target="_blank"
+                rel="noopener"
+                >beopbo.com</a
+              >
+            </p>
+            <p>
+              불교신문, « 통계와 숫자로 본 템플스테이 », 2013 —
+              <a
+                href="http://www.ibulgyo.com/news/articleView.html?idxno=130834"
+                target="_blank"
+                rel="noopener"
+                >ibulgyo.com</a
+              >
+            </p>
+            <p>
+              서울경제 (Seoul Economic Daily), « 작년 템플스테이 35만명 역대
+              최다 », 2026 —
+              <a
+                href="https://www.sedaily.com/NewsView/2K7CN3BMGF"
+                target="_blank"
+                rel="noopener"
+                >sedaily.com</a
+              >
+            </p>
+          </div>
+
+          <div class="biblio-block">
+            <h3>Silsangsa et l'Indra's net</h3>
+            <p>
+              Wikipedia coréen, « 도법 (승려) » —
+              <a
+                href="https://ko.wikipedia.org/wiki/도법_(승려)"
+                target="_blank"
+                rel="noopener"
+                >ko.wikipedia.org</a
+              >
+            </p>
+            <p>
+              Silsangsa.or.kr, biographie de Dobeop (도법) —
+              <a
+                href="https://www.silsangsa.or.kr/dobeob"
+                target="_blank"
+                rel="noopener"
+                >silsangsa.or.kr</a
+              >
+            </p>
+            <p>
+              Jogyesa, « 도법스님 인터뷰 : 생명평화 탁발순례 » —
+              <a href="https://www.jogyesa.kr/" target="_blank" rel="noopener"
+                >jogyesa.kr</a
+              >
+            </p>
+            <p>
+              Seoul Sinmun, « 도법·수경스님 등 생명평화 순례 », 2004 —
+              <a
+                href="https://www.seoul.co.kr/news/life/2004/02/25/20040225027004"
+                target="_blank"
+                rel="noopener"
+                >seoul.co.kr</a
+              >
+            </p>
+            <p>
+              ecosophialab.com, « 생명평화운동, 생명평화결사의 태동 » —
+              <a href="https://ecosophialab.com/" target="_blank" rel="noopener"
+                >ecosophialab.com</a
+              >
+            </p>
+            <p>
+              Sisa Journal, « 지리산 실상사 도법 스님 », 2001 —
+              <a
+                href="https://www.sisajournal.com/news/articleView.html?idxno=99596"
+                target="_blank"
+                rel="noopener"
+                >sisajournal.com</a
+              >
+            </p>
+            <p>
+              biguni (Academy of Korean Studies), « 인드라망생명공동체 » —
+              <a
+                href="https://dh.aks.ac.kr/~biguni/wiki/index.php/인드라망생명공동체"
+                target="_blank"
+                rel="noopener"
+                >dh.aks.ac.kr</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
+      <span>—</span>
+      <a
+        href="mentions-legales.html"
+        data-traduction="legal-notices"
+        class="link"
+        >Mentions légales</a
+      >
+
+      <button class="son" id="btnSon">
+        <svg
+          class="icon-son-on"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
+          <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+        </svg>
+        <svg
+          class="icon-son-off"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#354523"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          <line x1="23" y1="9" x2="17" y2="15" />
+          <line x1="17" y1="9" x2="23" y2="15" />
+        </svg>
+      </button>
+    </footer>
+  </body>
+</html>

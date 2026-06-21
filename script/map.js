@@ -45,10 +45,3 @@ document.querySelectorAll(".langues button").forEach((btn) => {
     if (match) updateTitreMap(match[1]);
   });
 });
-
-// SON
-window.addEventListener("load", () => {
-  bird.play().catch(() => {
-    document.addEventListener("click", () => bird.play(), { once: true });
-  });
-});

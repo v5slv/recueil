@@ -104,12 +104,6 @@ a.btn.btn-secondary:hover {
   justify-content: center;
 }
 
-.content-noimg {
-  max-width: 58rem;
-  flex: initial;
-  width: initial;
-}
-
 .context-text {
   flex: 1 1 55%;
   min-width: 0;

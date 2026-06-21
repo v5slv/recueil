@@ -49,7 +49,11 @@ function updateActif(langue) {
 // Au chargement
 const langueInitiale = localStorage.getItem("langue") || "fr";
 updateTitreMap(langueInitiale);
-updateActif(langueInitiale);
+
+// On attend que script.js ait fini son fetch avant de corriger l'actif
+window.addEventListener("load", () => {
+  updateActif(langueInitiale);
+});
 
 // Au clic sur les boutons de langue
 document.querySelectorAll(".langues button").forEach((btn) => {

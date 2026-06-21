@@ -178,6 +178,59 @@
       "legal-notices": "법적 고지"
     }
   },
+  "text-silsangsa": {
+    "fr": {
+      "title": "Recueil - Silsangsa et l'Indra's net",
+      "link-home": "Accueil",
+      "link-map": "Carte",
+      "map-details": "Silsangsa et l'Indra's net",
+      "h1": "Silsangsa et l'Indra's net",
+      "btn-experience": "Voir la capsule documentaire",
+      "btn-map": "Continuer sur la carte",
+      "details-title-1": "1. Le bouddhisme dans la Corée contemporaine",
+      "details-title-2": "2. Un bouddhisme de montagne et de campagne",
+      "details-title-3": "3. Le bouddhisme et l'État : de l'ère Saemaul à la réforme",
+      "details-title-4": "4. La politique du temple stay",
+      "details-title-5": "5. Silsangsa et l'Indra's net, un bouddhisme engagé",
+      "paragraph-1": "Longtemps religion dominante, le bouddhisme n'est plus aujourd'hui que la deuxième confession du pays, et une confession en recul.",
+      "about": "À propos",
+      "legal-notices": "Mentions légales"
+    },
+    "en": {
+      "title": "Harvest - Silsangsa and Indra's Net",
+      "link-home": "Home",
+      "link-map": "Map",
+      "map-details": "Silsangsa and Indra's Net",
+      "h1": "Silsangsa and Indra's Net",
+      "btn-experience": "Watch the documentary capsule",
+      "btn-map": "Continue to the map",
+      "details-title-1": "1. Buddhism in contemporary Korea",
+      "details-title-2": "2. A Buddhism of mountains and countryside",
+      "details-title-3": "3. Buddhism and the state: from the Saemaul era to reform",
+      "details-title-4": "4. The temple stay policy",
+      "details-title-5": "5. Silsangsa and Indra's Net, an engaged Buddhism",
+      "paragraph-1": "Long the dominant religion, Buddhism is today only the second faith in the country, and a declining one.",
+      "about": "About",
+      "legal-notices": "Legal notices"
+    },
+    "kr": {
+      "title": "그물코 - 실상사와 인드라망",
+      "link-home": "홈",
+      "link-map": "지도",
+      "map-details": "실상사와 인드라망",
+      "h1": "실상사와 인드라망",
+      "btn-experience": "다큐멘터리 캡슐 보기",
+      "btn-map": "지도로 계속하기",
+      "details-title-1": "1. 현대 한국의 불교",
+      "details-title-2": "2. 산과 농촌의 불교",
+      "details-title-3": "3. 불교와 국가 : 새마을 시대에서 개혁으로",
+      "details-title-4": "4. 템플스테이 정책",
+      "details-title-5": "5. 실상사와 인드라망, 참여불교",
+      "paragraph-1": "오랫동안 지배적인 종교였던 불교는 오늘날 국내 두 번째 종교일 뿐이며, 쇠퇴하고 있는 종교입니다.",
+      "about": "소개",
+      "legal-notices": "법적 고지"
+    }
+  },
   "a-propos": {
     "fr": {
       "title": "Recueil — À propos",

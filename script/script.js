@@ -88,6 +88,8 @@ function changerLangue(langue, el) {
   const pagesConnues = {
     "text-residents.html": "La ruralité coréenne",
     "player-residents.html": "La ruralité coréenne",
+    "text-silsangsa.html": "Silsangsa et l'Indra's net",
+    "player-silsangsa.html": "Silsangsa et l'Indra's net",
     "map.html": "Carte",
   };
 

@@ -1,4 +1,7 @@
 window.addEventListener("pageshow", () => {
+  const sonSauvegarde = localStorage.getItem("sonActif");
+  if (sonSauvegarde === "true") return;
+
   function play() {
     bird.currentTime = Math.random() * bird.duration;
     bird.volume = 0;

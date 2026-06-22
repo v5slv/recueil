@@ -92,17 +92,23 @@ function changerLangue(langue, el) {
 }
 
 // ── SON ──
-let sonActif = false;
 const btnSon = document.getElementById("btnSon");
-
 const bird = new Audio("sounds/bird1.wav");
 bird.loop = true;
-bird.volume = 0.6;
+bird.volume = 1;
+
+// true = muet, false = son actif
+let sonActif = localStorage.getItem("sonActif") === "true";
+
+if (btnSon && sonActif) {
+  btnSon.classList.add("muted");
+}
 
 if (btnSon) {
   btnSon.addEventListener("click", () => {
     sonActif = !sonActif;
     btnSon.classList.toggle("muted");
+    localStorage.setItem("sonActif", sonActif ? "true" : "false");
 
     if (!sonActif) {
       bird.play();

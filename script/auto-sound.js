@@ -1,6 +1,7 @@
 window.addEventListener("pageshow", () => {
   const sonSauvegarde = localStorage.getItem("sonActif");
   if (sonSauvegarde === "true") return;
+  if (document.getElementById("mp-overlay")) return; // popup mobile visible → pas de son
 
   function play() {
     bird.currentTime = Math.random() * bird.duration;

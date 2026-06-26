@@ -12,15 +12,19 @@
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/top-fil.css" />
     <link rel="stylesheet" href="styles/mentions-legales.css" />
-    <title>Recueil — Mentions légales</title>
+    <title data-traduction="title">Recueil — Mentions légales</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
   </head>
   <body>
     <header>
       <nav class="fil">
-        <a href="index.html" class="top-link">Accueil</a>
+        <a href="index.html" data-traduction="link-home" class="top-link">Accueil</a>
         <span>></span>
-        <span class="actif top-link">Mentions légales</span>
+        <span id="breadcrumb-parent" style="display:none">
+          <a id="breadcrumb-parent-link" href="#" class="top-link"></a>
+          <span>></span>
+        </span>
+        <span class="actif top-link" data-traduction="page-title">Mentions légales</span>
       </nav>
       <nav class="langues" aria-label="Choix de la langue">
         <button
@@ -43,14 +47,14 @@
     <main class="mentions-main">
       <!-- TITRE -->
       <section class="mentions-hero">
-        <h1 class="mentions-title">Mentions légales</h1>
+        <h1 class="mentions-title" data-traduction="h1">Mentions légales</h1>
       </section>
 
       <div class="mentions-divider"></div>
 
       <!-- ÉDITEUR DE SITE -->
       <section class="mentions-section">
-        <div class="mentions-section-label">Éditeur du site</div>
+        <div class="mentions-section-label" data-traduction="label-editeur">Éditeur du site</div>
         <div class="mentions-section-body">
           <p>L'équipe Recueil</p>
           <p>
@@ -58,8 +62,7 @@
             77420 Champs-sur-Marne
           </p>
           <p>
-            <span class="mentions-sublabel">Directeur de la publication</span
-            ><br />
+            <span class="mentions-sublabel" data-traduction="sublabel-directeur">Directeur de la publication</span><br />
             Thierry Bonzon<br />
             01 60 95 71 79
           </p>
@@ -70,14 +73,14 @@
 
       <!-- CONCEPTION -->
       <section class="mentions-section">
-        <div class="mentions-section-label">Conception &amp; développement</div>
+        <div class="mentions-section-label" data-traduction="label-conception">Conception &amp; développement</div>
         <div class="mentions-section-body">
           <p>
-            <span class="mentions-sublabel">Conception</span><br />
+            <span class="mentions-sublabel" data-traduction="sublabel-conception">Conception</span><br />
             L'équipe Recueil
           </p>
           <p>
-            <span class="mentions-sublabel">Développement</span><br />
+            <span class="mentions-sublabel" data-traduction="sublabel-developpement">Développement</span><br />
             Ayoub TIGHIDET<br />
             Valérie LAPEYRE
           </p>
@@ -88,7 +91,7 @@
 
       <!-- HÉBERGEUR -->
       <section class="mentions-section">
-        <div class="mentions-section-label">Hébergeur</div>
+        <div class="mentions-section-label" data-traduction="label-hebergeur">Hébergeur</div>
         <div class="mentions-section-body">
           <p>
             AXINET<br />
@@ -106,10 +109,10 @@
 
       <!-- PROPRIÉTÉ INTELLECTUELLE -->
       <section class="mentions-section">
-        <div class="mentions-section-label">Propriété intellectuelle</div>
+        <div class="mentions-section-label" data-traduction="label-propriete">Propriété intellectuelle</div>
         <div class="mentions-section-body">
           <ul class="mentions-liste">
-            <li>
+            <li data-traduction="propriete-li-1">
               Le film documentaire est distribué sous la licence Creative
               Commons Attribution — pas d'utilisation commerciale — Partage dans
               les mêmes conditions 4.0 International (CC-BY-NC-SA 4.0). Vous
@@ -117,7 +120,7 @@
               non commerciales, tant que vous nous créditez et que vous
               distribuez vos créations sous des conditions identiques.
             </li>
-            <li>
+            <li data-traduction="propriete-li-2">
               Ce site web est distribué sous la licence Creative Commons
               Attribution — pas d'utilisation commerciale — Partage dans les
               mêmes conditions 4.0 International (CC-BY-NC-SA 4.0). Vous êtes
@@ -125,7 +128,7 @@
               commerciales, tant que vous nous créditez et que vous distribuez
               vos créations sous des conditions identiques.
             </li>
-            <li>
+            <li data-traduction="propriete-li-3">
               Les ambiances sonores sont distribuées sous la licence Creative
               Commons Attribution — pas d'utilisation commerciale — Partage dans
               les mêmes conditions 4.0 International (CC-BY-NC-SA 4.0). Vous
@@ -133,7 +136,7 @@
               non commerciales, tant que vous nous créditez et que vous
               distribuez vos créations sous des conditions identiques.
             </li>
-            <li>
+            <li data-traduction="propriete-li-4">
               Toutes les photographies réalisées par Evan Melet sont la pleine
               et entière propriété de leur auteur. Elles sont protégées par le
               droit d'auteur (copyright). Toute reproduction, représentation,
@@ -141,7 +144,7 @@
               l'autorisation écrite préalable d'Evan Melet.
             </li>
           </ul>
-          <p class="mentions-note">
+          <p class="mentions-note" data-traduction="propriete-note">
             La licence CC-BY-NC-SA 4.0 permet toute exploitation de l'œuvre
             (partager, copier, reproduire, distribuer, communiquer, réutiliser,
             adapter) par tous moyens, sous tous formats. Toutes les
@@ -155,13 +158,13 @@
 
       <!-- DONNÉES PERSONNELLES -->
       <section class="mentions-section">
-        <div class="mentions-section-label">Données personnelles</div>
+        <div class="mentions-section-label" data-traduction="label-donnees">Données personnelles</div>
         <div class="mentions-section-body">
-          <p>
+          <p data-traduction="donnees-p1">
             Ce site ne collecte pas de données personnelles à l'insu des
             utilisateurs.
           </p>
-          <p>
+          <p data-traduction="donnees-p2">
             Pour toute question, veuillez contacter l'adresse :<br />
             <a href="mailto:contact@mastercmw.com" class="mentions-link"
               >contact@mastercmw.com</a
@@ -172,9 +175,9 @@
     </main>
 
     <footer>
-      <a href="a-propos.html" class="link">À propos</a>
+      <a href="a-propos.html" data-traduction="about" class="link">À propos</a>
       <span>—</span>
-      <a href="mentions-legales.html" class="link actif">Mentions légales</a>
+      <a href="mentions-legales.html" data-traduction="legal-notices" class="link actif">Mentions légales</a>
       <button class="son" id="btnSon" aria-label="Couper le son">
         <svg
           class="icon-son-on"
